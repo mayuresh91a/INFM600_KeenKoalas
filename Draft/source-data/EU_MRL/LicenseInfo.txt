@@ -1,0 +1,5 @@
+EU MRL:
+http://ec.europa.eu/food/plant/pesticides/eu-pesticides-database/public/?event=download.MRL
+
+License: "Reuse is authorised, provided the source is acknowledged."
+https://ec.europa.eu/info/legal-notice_en#copyright-notice
