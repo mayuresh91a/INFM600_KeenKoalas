@@ -3,5 +3,7 @@
 ### Members and corresponding usernames:
 * Eris Mei - Asatsuyu
 * Himanshu Sawant - hims2362
+* Saba Aldughaither - sabariyad
+* Mayuresh Amdekar - 
 
 _(Note to team: please go ahead and add yours to the list)_
