@@ -1,0 +1,40 @@
+Data Cleaning Steps:
+
+Initial Steps followed: 
+1) Import db into MS Access.
+2) Filter the data for apples by selecting  value for attribute "COMMOD (Commodity type)" as 'AP'.
+3) Export the result set into ".xsls" format.
+4) Import the xsls file into R Studio.
+Issues occured:
+
+The dataset was showing garbage values when imported into R. Following is the screenshot of the issue:
+
+<In the document, this place will have a screenshot>
+
+Steps to resolve the issue:-
+
+1) Copy the text from Samples.txt for 2014 data.
+2) Open a blank CSV file.
+3) Under the "Data" tab, click in "import from text".
+4) Select the Samples.txt file under the "Import from text option", give delimiter as "|"
+5) Add appropriate headers for each column.
+6) Save the CSV file with an appropriate name.
+7) Import the CSV into R Studio using import dataset option.
+
+
+Using the above steps we get 4 csv files - Apples_Sample14.csv, Apples_Results14.csv for 2014 data & Sampleapples04.csv, ResultsApples04.csv for 2004 data.
+
+2014 Samples
+
+1)Source ID blank for 158 rows / 177 rows. Source_ID not used in any of the research questions. Remove Source_ID field from the dataset. Source_ID is used to make a sample unique, however all the samples have unique value in the sample_pk attribute, which is a primary key. 
+
+2) Country field is used only when the Origin attribute has value '2' i.e the variety is imported from another country. However, for our samples, there is only one sample which is imported from "New Zealand" and corresponds to only one row in the dataset. For the sanity purpose, we replace the code of country i.e "US" for '1' and "New Zealand" for '2' directly into the "Origin" attribute. 176 rows with value for Country attribute as blank.
+
+3) GROWST- State postal code for location of sample grower. 163/177 blanks. PACKST- 118/177 blanks. DISTST- 34/177 blanks. These fields not used in any of the research questions.
+
+
+2014 Results 
+
+1) CONFMETHOD2 -- all rows i.e 38792 rows blank
+2) ANNOTATE -- all rows i.e 38792 rows blank
+3) QUANTITATE -- all rows i.e 38792 rows blank
