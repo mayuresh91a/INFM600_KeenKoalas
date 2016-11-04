@@ -1,17 +1,15 @@
 ## This script is for cleaning the data for pesticide concentration information of apples. 
 ## This will clean the data present in the CSV files converted from the excel sheets for the years 2014 and 2004.
 
-# set working directory to the directory of the R script, which also contains all the required csv files.
-dir <- dirname(parent.frame(2)$ofile)
-setwd(dir)
+setwd("C:/D/INFM600") # set working directory to the directory with all the required csv files.
 
-Samples_2014 <- read.csv("Datasets/Apples_Sample14.csv")   # Read the csv file containing the Samples data for apples from the year 2014
+Samples_2014 <- read.csv("Apples_Sample14.csv")   # Read the csv file containing the Samples data for apples from the year 2014
 
-Samples_2004 <- read.csv("Datasets/Sampleapples04.csv")    # Read the csv file containing the Samples data for apples from the year 2004
+Samples_2004 <- read.csv("Sampleapples04.csv")    # Read the csv file containing the Samples data for apples from the year 2004
 
-Results_2014 <- read.csv("Datasets/Apples_Results14.csv")   # Read the csv file containing the Results data for apples from the year 2014
+Results_2014 <- read.csv("Apples_Results14.csv")   # Read the csv file containing the Results data for apples from the year 2014
 
-Results_2004 <- read.csv("Datasets/ResultsApples04.csv")    # Read the csv file containing the Results data for apples from the year 2004
+Results_2004 <- read.csv("ResultsApples04.csv")    # Read the csv file containing the Results data for apples from the year 2004
 
 ## Replace the country codes in 'ORIGIN' attribute with actual country names in preparation for removing the COUNTRY attribute.
 #For 2014 Samples data
