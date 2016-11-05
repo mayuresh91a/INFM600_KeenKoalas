@@ -1,745 +1,745 @@
-SAMPLE_PK,STATE,YEAR,MONTH,DATE,SITE,COMMODITY,SOURCE_ID,VARIETY,ORIGIN,COUNTRY,DISTTYPE,COMMTYPE,CLAIM,QUANTITY,GROWST,PACKST,DISTST
-1,CA,4,1,7,1,AP, ,Pink Lady,1,,D,FR,NC,15,,WA,
-2,CA,4,1,7,10,AP, ,Gala,1,,D,FR,NC,10,,,WA
-3,CA,4,1,7,17,AP, ,Red Delicious,1,,D,FR,NC,15,,,WA
-4,CA,4,1,7,74,AP, ,Braeburn,1,,T,FR,NC,11,,,WA
-5,CA,4,1,7,130,AP, ,Red Delicious,1,,H,FR,NC,15,,WA,WA
-6,CA,4,1,7,152,AP, ,Golden Delicious,1,,D,FR,NC,15,,,WA
-7,CA,4,1,7,212,AP, ,Granny Smith,1,,T,FR,NC,12,,,WA
-8,CA,4,1,7,252,AP, ,Golden Delicious,1,,D,FR,NC,15,,,WA
-9,CA,4,1,7,390,AP, ,Granny Smith,1,,L,FR,NC,17,,,WA
-10,CA,4,1,7,447,AP, ,Red Delicious,1,,H,FR,NC,18,,WA,WA
-11,CA,4,1,7,450,AP, ,Fuji,1,,D,FR,NC,10,,WA,WA
-12,CA,4,1,7,469,AP, ,Fuji,1,,O,FR,NC,10,,,WA
-13,CA,4,1,7,470,AP, ,Red Delicious,1,,O,FR,NC,13,WA,,WA
-14,CA,4,1,7,484,AP,P,Cameo,1,,R,FR,PO,11,,,WA
-15,CA,4,2,4,10,AP, ,Fuji,1,,D,FR,NC,22,,,WA
-16,CA,4,2,4,55,AP, ,Fuji,1,,T,FR,NC,12,,WA,
-17,CA,4,2,4,87,AP, ,Red Delicious,1,,T,FR,NC,16,,WA,WA
-18,CA,4,2,4,99,AP, ,Fuji,1,,T,FR,NC,12,,,WA
-19,CA,4,2,4,122,AP, ,Fuji,1,,D,FR,NC,20,,,WA
-20,CA,4,2,4,128,AP, ,Red Delicious,1,,H,FR,NC,16,,,WA
-21,CA,4,2,4,136,AP, ,Fuji,1,,O,FR,NC,19,CA,CA,
-22,CA,4,2,4,217,AP, ,Red Delicious,1,,T,FR,NC,17,,,WA
-23,CA,4,2,4,263,AP, ,Fuji,1,,T,FR,NC,22,,WA,
-24,CA,4,2,4,278,AP, ,Granny Smith,1,,D,FR,NC,12,,,WA
-25,CA,4,2,4,399,AP, ,Red Delicious,1,,H,FR,NC,26,,,WA
-26,CA,4,2,4,447,AP, ,Fuji,1,,H,FR,NC,21,,WA,WA
-27,CA,4,2,4,450,AP, ,Royal Gala,1,,D,FR,NC,13,,WA,
-28,CA,4,2,4,473,AP, ,Red Delicious,2,260,H,FR,NC,10,,,
-29,CA,4,3,3,0,AP,P,Red Delicious,1,,T,FR,NC,10,,,WA
-30,CA,4,3,3,11,AP, ,Red Delicious,1,,T,FR,NC,16,,,WA
-31,CA,4,3,3,121,AP, ,Fuji,1,,T,FR,NC,12,,,WA
-32,CA,4,3,3,128,AP, ,Red Delicious,1,,H,FR,NC,13,,WA,
-33,CA,4,3,3,130,AP, ,Fuji,1,,O,FR,NC,18,,WA,
-34,CA,4,3,3,140,AP, ,Red Delicious,1,,D,FR,NC,10,,WA,WA
-35,CA,4,3,3,192,AP, ,Unknown,1,,H,FR,NC,10,,WA,
-36,CA,4,3,3,225,AP, ,Fuji,1,,H,FR,NC,11,,,WA
-37,CA,4,3,3,254,AP, ,Pink Lady,1,,H,FR,NC,18,,,WA
-38,CA,4,3,3,277,AP, ,Granny Smith,1,,T,FR,NC,12,,,WA
-39,CA,4,3,3,442,AP, ,Fuji,1,,H,FR,NC,6,,,WA
-40,CA,4,3,3,447,AP, ,Fuji,1,,O,FR,NC,20,,,WA
-41,CA,4,3,3,473,AP, ,Fuji,1,,H,FR,NC,11,,WA,WA
-42,CA,4,3,3,553,AP, ,Fuji,1,,R,FR,NC,12,,,WA
-43,CA,4,4,12,4,AP, ,Gala,1,,D,FR,NC,24,,,WA
-44,CA,4,4,12,38,AP, ,Braeburn,1,,T,FR,NC,11,,WA,
-45,CA,4,4,12,111,AP, ,Golden Delicious,1,,H,FR,NC,12,,,WA
-46,CA,4,4,12,130,AP, ,Red Delicious,1,,H,FR,NC,10,,,WA
-47,CA,4,4,12,152,AP, ,Fuji,1,,D,FR,NC,14,,,WA
-48,CA,4,4,12,177,AP, ,Unknown,1,,H,FR,NC,11,,,WA
-49,CA,4,4,12,254,AP, ,Fuji,1,,H,FR,NC,15,,,WA
-50,CA,4,4,12,273,AP, ,Cameo,1,,D,FR,NC,10,,,WA
-51,CA,4,4,12,274,AP, ,Jonagold,1,,D,FR,NC,10,,,WA
-52,CA,4,4,12,278,AP, ,Granny Smith,1,,T,FR,NC,11,,,WA
-53,CA,4,4,12,344,AP, ,Fuji,1,,T,FR,NC,12,,,WA
-54,CA,4,4,12,390,AP, ,Unknown,1,,H,FR,NC,16,,,WA
-55,CA,4,4,12,469,AP, ,Granny Smith,1,,H,FR,NC,10,,,WA
-56,CA,4,4,12,472,AP, ,Red Delicious,1,,H,FR,NC,10,,,WA
-57,CA,4,5,24,4,AP, ,Granny Smith,1,,D,FR,NC,20,,,WA
-58,CA,4,5,24,17,AP, ,Red Delicious,1,,D,FR,NC,30,,,WA
-59,CA,4,5,24,20,AP, ,Royal Gala,2,275,D,FR,NC,10,,,
-60,CA,4,5,24,38,AP, ,Red Delicious,1,,T,FR,NC,18,,,WA
-61,CA,4,5,24,55,AP, ,Fuji,1,,T,FR,NC,12,,WA,
-62,CA,4,5,24,128,AP, ,Red Delicious,1,,H,FR,NC,12,,,WA
-63,CA,4,5,24,130,AP, ,Fuji,1,,H,FR,NC,11,,,WA
-64,CA,4,5,24,136,AP, ,Red Delicious,1,,H,FR,NC,27,,WA,WA
-65,CA,4,5,24,152,AP, ,Royal Gala,2,660,D,FR,NC,14,,,
-66,CA,4,5,24,307,AP, ,Cameo,1,,D,FR,NC,9,,,CA
-67,CA,4,5,24,390,AP, ,Golden Delicious,1,,O,FR,NC,23,,,WA
-68,CA,4,5,24,447,AP, ,Jonagold,1,,H,FR,NC,18,,WA,WA
-69,CA,4,5,24,473,AP, ,Granny Smith,1,,H,FR,NC,14,,,WA
-70,CA,4,5,24,553,AP, ,Braeburn,1,,L,FR,NC,16,,,WA
-71,CA,4,6,28,17,AP, ,Golden Delicious,1,,D,FR,NC,12,,WA,
-72,CA,4,6,28,49,AP, ,Granny Smith,1,,T,FR,NC,7,,WA,
-73,CA,4,6,28,111,AP, ,Granny Smith,1,,H,FR,NC,11,,WA,WA
-74,CA,4,6,28,128,AP, ,Red Delicious,1,,H,FR,NC,11,,WA,
-75,CA,4,6,28,192,AP, ,Fuji,1,,T,FR,NC,23,,,WA
-76,CA,4,6,28,225,AP, ,Royal Gala,1,,T,FR,NC,13,,,WA
-77,CA,4,6,28,275,AP, ,Fuji,2,275,T,FR,NC,10,,,
-78,CA,4,6,28,400,AP, ,Red Delicious,1,,O,FR,PO,11,,,WA
-79,CA,4,6,28,419,AP, ,Fuji,2,275,T,FR,NC,11,,,
-80,CA,4,6,28,447,AP, ,Red Delicious,1,,H,FR,NC,17,,,WA
-81,CA,4,6,28,469,AP, ,Red Delicious,1,,H,FR,NC,10,,,WA
-82,CA,4,6,28,472,AP, ,Golden Delicious,1,,H,FR,NC,10,,,WA
-83,CA,4,6,29,231,AP, ,Royal Gala,2,660,T,FR,NC,17,,,
-84,CA,4,6,29,277,AP, ,Red Delicious,1,,T,FR,NC,12,,,WA
-85,CA,4,7,6,1,AP, ,Royal Gala,2,660,D,FR,NC,10,,,
-86,CA,4,7,6,20,AP, ,Golden Delicious,1,,T,FR,NC,10,,WA,
-87,CA,4,7,6,69,AP, ,Fuji,1,,T,FR,NC,11,,WA,
-88,CA,4,7,6,77,AP, ,Granny Smith,2,275,T,FR,NC,11,,,
-89,CA,4,7,6,111,AP, ,Red Delicious,1,,H,FR,NC,11,,,WA
-90,CA,4,7,6,128,AP, ,Red Delicious,1,,H,FR,NC,11,,WA,
-91,CA,4,7,6,130,AP, ,Red Delicious,1,,H,FR,NC,10,,,WA
-92,CA,4,7,6,140,AP, ,Red Delicious,1,,D,FR,NC,14,,,WA
-93,CA,4,7,6,142,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-94,CA,4,7,6,273,AP, ,Royal Gala,2,660,D,FR,NC,17,,,
-95,CA,4,7,6,274,AP, ,Fuji,1,,T,FR,NC,19,,,WA
-96,CA,4,7,6,307,AP, ,Fuji,1,,D,FR,NC,8,,WA,
-97,CA,4,7,6,432,AP, ,Granny Smith,1,,O,FR,NC,12,,,WA
-98,CA,4,7,6,469,AP, ,Golden Delicious,1,,H,FR,NC,10,,,WA
-99,CA,4,8,4,10,AP, ,Fuji,2,660,T,FR,NC,16,,,
-100,CA,4,8,4,69,AP, ,Fuji,2,660,T,FR,NC,12,,,
-101,CA,4,8,4,111,AP, ,Red Delicious,1,,H,FR,NC,18,,,WA
-102,CA,4,8,4,128,AP, ,Red Delicious,1,,H,FR,NC,12,,WA,WA
-103,CA,4,8,4,217,AP, ,Granny Smith,2,275,T,FR,NC,10,,,FL
-104,CA,4,8,4,230,AP, ,Red Delicious,1,,T,FR,NC,18,,,WA
-105,CA,4,8,4,252,AP, ,Red Delicious,1,,T,FR,NC,18,,,WA
-106,CA,4,8,4,254,AP, ,Fuji,1,,H,FR,NC,10,,WA,WA
-107,CA,4,8,4,277,AP, ,Golden Delicious,1,,T,FR,NC,12,,,WA
-108,CA,4,8,4,368,AP, ,Red Delicious,1,,T,FR,NC,20,,,WA
-109,CA,4,8,4,442,AP, ,Fuji,1,,T,FR,NC,6,,,CA
-110,CA,4,8,4,450,AP, ,Red Delicious,1,,H,FR,NC,10,,WA,WA
-111,CA,4,8,4,469,AP, ,Red Delicious,1,,H,FR,NC,12,,,WA
-112,CA,4,8,4,472,AP, ,Red Delicious,1,,H,FR,NC,9,,WA,
-113,CA,4,9,7,10,AP, ,Fuji,1,,D,FR,NC,25,,CA,
-114,CA,4,9,7,17,AP, ,Red Delicious,1,,T,FR,NC,22,,,WA
-115,CA,4,9,7,20,AP, ,Gala,1,,T,FR,NC,16,,,WA
-116,CA,4,9,7,111,AP, ,Fuji,2,275,H,FR,NC,10,,,
-117,CA,4,9,7,140,AP, ,Red Delicious,1,,D,FR,NC,14,CA,CA,CA
-118,CA,4,9,7,252,AP, ,Red Delicious,1,,T,FR,NC,19,,,WA
-119,CA,4,9,7,254,AP, ,Gala,1,,H,FR,NC,16,,CA,
-120,CA,4,9,7,277,AP, ,Red Delicious,1,,T,FR,NC,12,,,WA
-121,CA,4,9,7,278,AP, ,Red Delicious,1,,T,FR,NC,16,,,WA
-122,CA,4,9,7,447,AP, ,Gala,1,,H,FR,NC,20,,CA,
-123,CA,4,9,7,470,AP, ,Granny Smith,1,,H,FR,NC,10,,WA,WA
-124,CA,4,9,7,472,AP, ,Granny Smith,1,,H,FR,NC,9,,WA,
-125,CA,4,9,7,473,AP, ,Red Delicious,1,,H,FR,NC,12,,WA,WA
-126,CA,4,9,7,561,AP, ,Gala,1,,D,FR,NC,20,,,CA
-127,CA,4,10,5,225,AP, ,Granny Smith,1,,T,FR,NC,11,,,WA
-128,CA,4,10,5,390,AP, ,Gala,1,,H,FR,NC,17,,ID,
-129,CA,4,10,5,442,AP, ,Fuji,1,,T,FR,NC,7,,,WA
-130,CA,4,10,6,1,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-131,CA,4,10,6,4,AP, ,Golden Delicious,1,,D,FR,NC,16,,,WA
-132,CA,4,10,6,17,AP, ,Mcintosh,2,260,T,FR,NC,18,,,
-133,CA,4,10,6,49,AP, ,Fuji,1,,T,FR,NC,11,,CA,
-134,CA,4,10,6,128,AP, ,Gala,1,,L,FR,NC,11,,,WA
-135,CA,4,10,6,130,AP, ,Red Delicious,1,,L,FR,NC,11,,,WA
-136,CA,4,10,6,136,AP, ,Red Delicious,1,,H,FR,NC,11,,WA,WA
-137,CA,4,10,6,140,AP, ,Gravenstein,1,,D,FR,NC,17,CA,CA,CA
-138,CA,4,10,6,274,AP, ,Fuji,1,,D,FR,NC,12,CA,CA,
-139,CA,4,10,6,484,AP, ,Granny Smith,1,,R,FR,NC,8,,CA,
-140,CA,4,10,6,540,AP, ,Fuji,1,,D,FR,NC,9,,WA,WA
-141,CA,4,11,3,20,AP, ,Unknown,2,660,T,FR,NC,15,,,
-142,CA,4,11,3,114,AP, ,Granny Smith,1,,T,FR,NC,15,,,WA
-143,CA,4,11,3,121,AP, ,Red Delicious,1,,T,FR,NC,15,,,WA
-144,CA,4,11,3,130,AP, ,Jonathan,1,,H,FR,NC,21,,,WA
-145,CA,4,11,3,136,AP, ,Red Delicious,1,,H,FR,NC,12,,WA,WA
-146,CA,4,11,3,140,AP, ,Fuji,1,,D,FR,NC,17,,CA,CA
-147,CA,4,11,3,152,AP, ,Gala,1,,D,FR,NC,13,,,WA
-148,CA,4,11,3,254,AP, ,Empire,2,260,H,FR,NC,21,,,
-149,CA,4,11,3,274,AP, ,Royal Gala,2,260,D,FR,NC,15,,,
-150,CA,4,11,3,429,AP, ,Fuji,1,,T,FR,NC,16,,,CA
-151,CA,4,11,3,439,AP, ,Gala,1,,T,FR,NC,18,,,WA
-152,CA,4,11,3,447,AP, ,Granny Smith,1,,H,FR,NC,18,,,CA
-153,CA,4,11,3,473,AP, ,Red Delicious,1,,H,FR,NC,12,,,WA
-154,CA,4,11,3,561,AP, ,Honey Crisp,1,,T,FR,NC,20,,,CA
-155,CA,4,12,8,17,AP, ,Red Delicious,1,,D,FR,NC,9,,,WA
-156,CA,4,12,8,20,AP, ,D'anjou,1,,T,FR,NC,11,,,WA
-157,CA,4,12,8,38,AP, ,Red Delicious,1,,T,FR,NC,11,,ID,
-158,CA,4,12,8,49,AP, ,Golden Delicious,1,,T,FR,NC,18,,,ID
-159,CA,4,12,8,136,AP, ,Red Delicious,1,,H,FR,NC,15,,WA,
-160,CA,4,12,8,140,AP, ,Red Delicious,1,,D,FR,NC,20,,,WA
-161,CA,4,12,8,150,AP, ,Pippin,1,,D,FR,NC,15,,,OR
-162,CA,4,12,8,277,AP, ,Granny Smith,1,,T,FR,NC,11,,,WA
-163,CA,4,12,8,307,AP, ,Red Delicious,1,,D,FR,NC,14,,,WA
-164,CA,4,12,8,432,AP, ,Granny Smith,1,,H,FR,NC,11,,,WA
-165,CA,4,12,8,447,AP, ,Red Delicious,1,,H,FR,NC,10,,WA,WA
-166,CA,4,12,8,450,AP, ,Fuji,1,,H,FR,NC,8,,WA,WA
-167,CA,4,12,8,473,AP, ,Red Delicious,2,260,H,FR,NC,11,,,
-168,CA,4,12,8,539,AP, ,Red Delicious,1,,H,FR,NC,12,WA,WA,WA
-169,CO,4,1,12,1,AP, ,Granny Smith,1,,D,FR,NC,16,,,WA
-170,CO,4,1,12,13,AP, ,Red Delicious,1,,T,FR,NC,14,,,WA
-171,CO,4,2,9,5,AP, ,Granny Smith,1,,T,FR,NC,10,,,
-172,CO,4,2,9,9,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-173,CO,4,3,8,8,AP, ,Royal Gala,1,,T,FR,NC,13,,,TX
-174,CO,4,3,8,9,AP, ,Unknown,1,,D,FR,NC,13,,,WA
-175,CO,4,4,12,8,AP, ,Red Delicious,1,,T,FR,NC,11,,,TX
-176,CO,4,4,12,9,AP, ,Gala,1,,D,FR,NC,13,,,WA
-177,CO,4,5,10,9,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-178,CO,4,5,10,13,AP, ,Fuji,1,,T,FR,NC,12,,,WA
-179,CO,4,6,14,5,AP, ,Granny Smith,2,275,T,FR,NC,13,,,
-180,CO,4,6,14,7,AP, ,Royal Gala,2,660,D,FR,NC,10,,,
-181,CO,4,7,12,12,AP, ,Granny Smith,1,,T,FR,NC,11,,,
-182,CO,4,7,12,13,AP, ,Red Delicious,1,,T,FR,NC,15,,,WA
-183,CO,4,8,9,4,AP, ,Red Delicious,1,,T,FR,NC,12,,,WA
-184,CO,4,8,9,7,AP, ,Fuji,2,660,D,FR,NC,12,,,
-185,CO,4,9,13,8,AP, ,Granny Smith,1,,T,FR,NC,10,,,TX
-186,CO,4,9,13,9,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-187,CO,4,10,12,7,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-188,CO,4,10,12,8,AP, ,Red Delicious,1,,T,FR,NC,14,,,TX
-189,CO,4,11,8,10,AP, ,Golden Delicious,1,,T,FR,NC,14,,,CA
-190,CO,4,11,8,13,AP, ,Fuji,1,,T,FR,NC,13,CO,,
-191,CO,4,12,13,1,AP, ,Red Delicious,1,,D,FR,NC,14,WA,,
-192,CO,4,12,13,5,AP, ,Golden Delicious,1,,T,FR,NC,13,,,WA
-193,FL,4,1,5,18,AP, ,Golden Delicious,1,,D,FR,NC,17,,,MI
-194,FL,4,1,5,32,AP, ,Mcintosh,1,,D,FR,NC,19,,ME,MA
-195,FL,4,1,5,52,AP, ,Red Delicious,1,,D,FR,NC,11,,,TX
-196,FL,4,1,5,56,AP, ,Gala,1,,D,FR,NC,18,,,WA
-197,FL,4,1,5,62,AP, ,Red Delicious,1,,L,FR,NC,21,,,WA
-198,FL,4,1,5,63,AP, ,Unknown,1,,L,FR,NC,15,,NY,
-199,FL,4,1,5,64,AP, ,Red Delicious,1,,R,FR,NC,26,,WA,
-200,FL,4,2,2,1,AP, ,Gala,1,,D,FR,NC,12,,,WA
-201,FL,4,2,2,2,AP, ,Gala,1,,D,FR,NC,11,,,WA
-202,FL,4,2,2,7,AP, ,Unknown,1,,D,FR,NC,11,,,WA
-203,FL,4,2,2,20,AP, ,Fuji,1,,D,FR,NC,12,,,WA
-204,FL,4,2,2,23,AP, ,Golden Delicious,1,,D,FR,NC,13,,,WA
-205,FL,4,2,2,25,AP, ,Unknown,1,,D,FR,NC,17,,,WA
-206,FL,4,2,2,58,AP, ,Red Delicious,1,,D,FR,NC,13,,,WA
-207,FL,4,3,1,9,AP, ,Pink Lady,1,,D,FR,NC,18,,,WA
-208,FL,4,3,1,23,AP, ,Royal Gala,2,275,D,FR,NC,14,,,
-209,FL,4,3,1,26,AP, ,Unknown,1,,D,FR,NC,13,,WA,
-210,FL,4,3,1,29,AP, ,Granny Smith,1,,D,FR,NC,9,,,WA
-211,FL,4,3,1,40,AP, ,Red Delicious,1,,D,FR,NC,13,,,TX
-212,FL,4,3,1,41,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-213,FL,4,3,1,48,AP, ,Red Delicious,1,,D,FR,NC,11,,,TX
-214,FL,4,4,5,1,AP, ,Braeburn,1,,D,FR,NC,12,,WA,
-215,FL,4,4,5,18,AP, ,Red Delicious,1,,L,FR,NC,12,,,WA
-216,FL,4,4,5,32,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-217,FL,4,4,5,39,AP, ,Golden Delicious,1,,L,FR,NC,12,,,TX
-218,FL,4,4,5,44,AP, ,Unknown,1,,D,FR,NC,12,,,WA
-219,FL,4,4,5,55,AP, ,Golden Delicious,1,,D,FR,NC,12,,WA,
-220,FL,4,4,5,62,AP, ,Gala,1,,L,FR,NC,16,,WA,
-221,FL,4,5,3,4,AP, ,Golden Delicious,1,,D,FR,NC,13,,,WA
-222,FL,4,5,3,9,AP, ,Unknown,1,,D,FR,NC,16,,,MI
-223,FL,4,5,3,20,AP, ,Fuji,1,,L,FR,NC,13,,,WA
-224,FL,4,5,3,25,AP, ,Law Rome,1,,D,FR,NC,11,,,NY
-225,FL,4,5,3,38,AP, ,Red Delicious,1,,D,FR,NC,7,,,WA
-226,FL,4,5,3,45,AP, ,Unknown,1,,D,FR,NC,11,,,WA
-227,FL,4,5,3,58,AP, ,Red Delicious,1,,D,FR,NC,15,,,WA
-228,FL,4,6,7,1,AP, ,Royal Gala,2,275,D,FR,NC,16,,,
-229,FL,4,6,7,18,AP, ,Mcintosh,1,,L,FR,NC,18,WV,,
-230,FL,4,6,7,32,AP, ,Granny Smith,1,,D,FR,NC,24,WA,,
-231,FL,4,6,7,39,AP, ,Golden Delicious,1,,L,FR,NC,9,,,TX
-232,FL,4,6,7,44,AP, ,Unknown,1,,D,FR,NC,8,,,WA
-233,FL,4,6,7,53,AP, ,Red Delicious,1,,L,FR,NC,12,WA,,
-234,FL,4,6,7,64,AP, ,Granny Smith,1,,D,FR,NC,13,,,WA
-235,FL,4,7,6,1,AP, ,Royal Gala,2,660,D,FR,NC,12,,,
-236,FL,4,7,6,2,AP, ,Golden Delicious,1,,D,FR,NC,13,,,WA
-237,FL,4,7,6,19,AP, ,Gala,1,,L,FR,NC,14,,,WA
-238,FL,4,7,6,23,AP, ,Royal Gala,2,275,D,FR,NC,14,,,
-239,FL,4,7,6,29,AP, ,Royal Gala,2,275,D,FR,NC,13,,,
-240,FL,4,7,6,45,AP, ,Royal Gala,2,UNK,D,FR,NC,12,,,
-241,FL,4,7,6,52,AP, ,Unknown,1,,D,FR,NC,13,,,TX
-242,FL,4,8,2,7,AP, ,Red Delicious,1,,D,FR,NC,13,,,WA
-243,FL,4,8,2,38,AP, ,Granny Smith,2,UNK,D,FR,NC,12,,,WA
-244,FL,4,8,2,58,AP, ,Red Delicious,1,,D,FR,NC,9,,,WA
-245,FL,4,8,2,59,AP, ,Red Delicious,1,,D,FR,NC,10,,,MD
-246,FL,4,8,2,61,AP, ,Red Delicious,1,,L,FR,NC,15,,,WA
-247,FL,4,8,2,62,AP, ,Granny Smith,1,,L,FR,NC,11,,WA,
-248,FL,4,8,2,63,AP, ,Red Delicious,1,,L,FR,NC,10,,,WA
-249,FL,4,9,8,2,AP, ,Royal Gala,1,,D,FR,NC,14,,,WA
-250,FL,4,9,8,9,AP, ,Red Delicious,1,,D,FR,NC,20,,,WA
-251,FL,4,9,8,23,AP, ,Ginger Gold,1,,D,FR,NC,13,,,WA
-252,FL,4,9,8,40,AP, ,Red Delicious,1,,D,FR,NC,14,,,TX
-253,FL,4,9,8,44,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-254,FL,4,9,8,45,AP, ,Golden Delicious,1,,D,FR,NC,11,,WA,
-255,FL,4,9,8,56,AP, ,Unknown,1,,D,FR,NC,14,,,WA
-256,FL,4,10,4,2,AP, ,Fuji,2,660,D,FR,NC,12,,,
-257,FL,4,10,4,7,AP, ,Red Delicious,1,,D,FR,NC,10,,WA,
-258,FL,4,10,4,20,AP, ,Red Delicious,1,,L,FR,NC,12,,,WA
-259,FL,4,10,4,26,AP, ,Golden Delicious,1,,D,FR,NC,10,,,WA
-260,FL,4,10,4,29,AP, ,Granny Smith,1,,D,FR,NC,12,,,CA
-261,FL,4,10,4,40,AP, ,Granny Smith,1,,L,FR,NC,11,,,TX
-262,FL,4,10,4,49,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-263,FL,4,11,1,4,AP, ,Unknown,1,,D,FR,NC,18,NC,NC,
-264,FL,4,11,1,9,AP, ,Jonathan,1,,D,FR,NC,17,,,MI
-265,FL,4,11,1,25,AP, ,Unknown,1,,D,FR,NC,9,,WA,
-266,FL,4,11,1,26,AP, ,Mcintosh,1,,D,FR,NC,13,,,PA
-267,FL,4,11,1,46,AP, ,Red Delicious,1,,L,FR,NC,11,,,WA
-268,FL,4,11,1,52,AP, ,Red Delicious,1,,D,FR,NC,9,,,TX
-269,FL,4,11,1,61,AP, ,Red Delicious,1,,L,FR,NC,16,,,
-270,FL,4,12,6,56,AP, ,Red Delicious,1,,D,FR,NC,13,,,NY
-271,FL,4,12,6,57,AP, ,Red Delicious,1,,L,FR,NC,17,,,
-272,FL,4,12,6,58,AP, ,Red Delicious,1,,D,FR,NC,8,,,WA
-273,FL,4,12,6,59,AP, ,Red Delicious,1,,D,FR,NC,11,,,MD
-274,FL,4,12,6,60,AP, ,Red Delicious,1,,D,FR,NC,14,,NY,NY
-275,FL,4,12,6,63,AP, ,Red Delicious,1,,L,FR,NC,8,,,WA
-276,FL,4,12,6,64,AP, ,Jonagold,1,,D,FR,NC,11,,,WA
-277,MD,4,1,7,1,AP, ,Golden Delicious,1,,D,FR,NC,14,,,PA
-278,MD,4,1,7,5,AP, ,Red Delicious,1,,D,FR,NC,10,,,TX
-279,MD,4,1,7,36,AP, ,Fuji,1,,T,FR,NC,10,,VA,
-280,MD,4,1,7,39,AP, ,Unknown,1,,D,FR,NC,21,,VT,
-281,MD,4,2,4,1,AP, ,Unknown,1,,D,FR,NC,12,,MD,
-282,MD,4,2,4,5,AP, ,Unknown,1,,D,FR,NC,14,,,TX
-283,MD,4,2,4,8,AP, ,Fuji,1,,D,FR,NC,14,,WA,
-284,MD,4,2,4,39,AP, ,Unknown,1,,D,FR,NC,14,,,WA
-285,MD,4,3,3,1,AP, ,Unknown,1,,D,FR,NC,10,,WA,
-286,MD,4,3,3,5,AP, ,Golden Delicious,1,,D,FR,NC,9,,,TX
-287,MD,4,3,3,8,AP, ,Golden Delicious,1,,D,FR,NC,10,WA,,
-288,MD,4,3,3,39,AP, ,Unknown,1,,D,FR,NC,12,,WA,
-289,MD,4,4,12,1,AP, ,Unknown,1,,D,FR,NC,9,,,WA
-290,MD,4,4,12,5,AP, ,Red Delicious,1,,D,FR,NC,12,,,TX
-291,MD,4,4,12,8,AP, ,Granny Smith,1,,D,FR,NC,11,,,WA
-292,MD,4,4,12,39,AP, ,Acey Mac,1,,D,FR,NC,12,,NY,
-293,MD,4,5,24,1,AP, ,Royal Gala,2,275,D,FR,NC,14,,,
-294,MD,4,5,24,5,AP, ,Golden Delicious,1,,D,FR,NC,9,,,WA
-295,MD,4,5,24,8,AP, ,Golden Delicious,1,,D,FR,NC,21,,,WA
-296,MD,4,5,24,39,AP, ,Empire Crist-Aire,1,,D,FR,NC,12,,,NY
-297,MD,4,6,28,1,AP, ,Golden Delicious,1,,D,FR,NC,11,,,WA
-298,MD,4,6,28,5,AP, ,Unknown,1,,D,FR,NC,12,,,TX
-299,MD,4,6,28,21,AP, ,Red Delicious,1,,T,FR,NC,11,,,WA
-300,MD,4,6,28,39,AP, ,Unknown,2,660,D,FR,NC,12,,,
-301,MD,4,7,6,1,AP, ,Red Delicious,1,,D,FR,NC,11,WA,,
-302,MD,4,7,6,5,AP, ,Red Delicious,1,,D,FR,NC,12,,,TX
-303,MD,4,7,6,8,AP, ,Acey Mac,2,260,D,FR,NC,15,,,NY
-304,MD,4,7,6,21,AP, ,Fuji,1,,T,FR,NC,9,,,WA
-305,MD,4,8,4,1,AP, ,Granny Smith,1,,D,FR,NC,10,,,WA
-306,MD,4,8,4,5,AP, ,Granny Smith,1,,D,FR,NC,9,,,TX
-307,MD,4,8,4,8,AP, ,Red Delicious,1,,D,FR,NC,10,WA,WA,
-308,MD,4,8,4,39,AP, ,Red Delicious,1,,D,FR,NC,20,,,WA
-309,MD,4,9,7,1,AP, ,Red Delicious,1,,D,FR,NC,10,,,PA
-310,MD,4,9,7,5,AP, ,Unknown,1,,D,FR,NC,11,,,TX
-311,MD,4,9,7,21,AP, ,Golden Delicious,1,,T,FR,NC,9,,WA,
-312,MD,4,9,7,39,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-313,MD,4,10,6,1,AP, ,Gala,1,,B,FR,NC,13,,,WA
-314,MD,4,10,6,5,AP, ,Golden Delicious,1,,D,FR,NC,15,,,TX
-315,MD,4,10,6,8,AP, ,Red Delicious,1,,D,FR,NC,15,,PA,
-316,MD,4,10,6,39,AP, ,Golden Delicious,1,,D,FR,NC,11,,,WA
-317,MD,4,11,3,1,AP, ,Golden Delicious,1,,D,FR,NC,10,,,WA
-318,MD,4,11,3,8,AP, ,Gala,1,,D,FR,NC,11,,WA,
-319,MD,4,11,3,21,AP, ,Red Delicious,1,,T,FR,NC,8,,,
-320,MD,4,11,3,39,AP, ,Golden Delicious,1,,D,FR,NC,12,WA,,
-321,MD,4,12,8,1,AP, ,Red Delicious,1,,D,FR,NC,9,,PA,
-322,MD,4,12,8,5,AP, ,Rome,1,,D,FR,NC,11,,,TX
-323,MD,4,12,8,8,AP, ,Golden Delicious,1,,D,FR,NC,11,,,WA
-324,MD,4,12,8,36,AP, ,Nittany,1,,T,FR,NC,11,,PA,
-325,MI,4,1,5,21,AP, ,Unknown,1,,D,FR,NC,9,,,WA
-326,MI,4,1,5,35,AP, ,Granny Smith,1,,D,FR,PP,9,,,WA
-327,MI,4,1,5,38,AP, ,Pink Lady,1,,D,FR,NC,9,,,WA
-328,MI,4,1,5,42,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-329,MI,4,1,5,56,AP, ,Unknown,1,,D,FR,NC,10,,WA,
-330,MI,4,1,5,87,AP, ,Unknown,1,,D,FR,NC,10,,,
-331,MI,4,2,2,5,AP, ,Unknown,1,,D,FR,NC,11,,,WA
-332,MI,4,2,2,31,AP, ,Red Delicious,1,,D,FR,NC,17,,,MI
-333,MI,4,2,2,39,AP, ,Fuji,1,,D,FR,NC,9,WA,,
-334,MI,4,2,2,43,AP, ,Granny Smith,1,,D,FR,NC,9,,,WA
-335,MI,4,2,2,48,AP, ,Red Delicious,1,,D,FR,NC,15,WA,,WA
-336,MI,4,2,2,56,AP, ,Gala,1,,D,FR,NC,7,WA,,
-337,MI,4,3,1,8,AP, ,Red Delicious,1,,D,FR,NC,20,,,MI
-338,MI,4,3,1,39,AP, ,Red Delicious,1,,T,FR,NC,8,WA,,
-339,MI,4,3,1,42,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-340,MI,4,3,1,47,AP, ,Golden Delicious,3,,D,FR,NC,13,,,
-341,MI,4,3,1,53,AP, ,Granny Smith,1,,D,FR,NC,11,,,TX
-342,MI,4,3,1,56,AP, ,Unknown,1,,D,FR,NC,12,,,WA
-343,MI,4,4,5,8,AP, ,Red Delicious,1,,D,FR,NC,16,,,MI
-344,MI,4,4,5,21,AP, ,Unknown,1,,D,FR,NC,9,,,WA
-345,MI,4,4,5,27,AP, ,Red Delicious,1,,D,FR,NC,12,,,
-346,MI,4,4,5,42,AP, ,Red Delicious,1,,D,FR,NC,9,,,WA
-347,MI,4,4,5,44,AP, ,Golden Delicious,1,,D,FR,NC,25,,,MI
-348,MI,4,4,5,56,AP, ,Royal Gala,2,275,D,FR,NC,9,,,
-349,MI,4,5,3,4,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-350,MI,4,5,3,27,AP, ,Granny Smith,1,,D,FR,NC,15,,,CA
-351,MI,4,5,3,38,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-352,MI,4,5,3,42,AP, ,Red Delicious,1,,D,FR,NC,9,,,WA
-353,MI,4,5,3,56,AP, ,Unknown,1,,D,FR,NC,9,,,WA
-354,MI,4,5,3,84,AP, ,Wa Golden Delicious,1,,D,FR,NC,13,,,MD
-355,MI,4,6,7,5,AP, ,Red Delicious,1,,D,FR,NC,10,,,MI
-356,MI,4,6,7,18,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-357,MI,4,6,7,42,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-358,MI,4,6,7,47,AP, ,Unknown,1,,D,FR,NC,9,,,CA
-359,MI,4,6,7,48,AP, ,Unknown,1,,D,FR,NC,10,WA,,
-360,MI,4,6,7,84,AP, ,Golden Delicious,1,,D,FR,NC,9,,WA,MN
-361,MI,4,7,6,5,AP, ,Unknown,1,,D,FR,NC,14,,,MI
-362,MI,4,7,6,8,AP, ,Unknown,2,260,D,FR,NC,16,,,
-363,MI,4,7,6,28,AP, ,Unknown,3,,D,FR,NC,11,,,
-364,MI,4,7,6,42,AP, ,Braeburn,2,275,D,FR,NC,11,,,
-365,MI,4,7,6,48,AP, ,Royal Gala,2,UNK,D,FR,NC,13,,,WA
-366,MI,4,7,6,50,AP, ,Unknown,1,,D,FR,NC,13,,,WA
-367,MI,4,8,2,8,AP, ,Unknown,1,,D,FR,NC,14,,,
-368,MI,4,8,2,27,AP, ,Red Delicious,3,,D,FR,NC,13,,,
-369,MI,4,8,2,40,AP, ,Wash. Red Delicious,1,,T,FR,NC,12,,WA,
-370,MI,4,8,2,42,AP, ,Red Delicious,1,,D,FR,NC,8,,,WA
-371,MI,4,8,2,46,AP, ,Wa Red Delicious,1,,T,FR,NC,10,WA,,
-372,MI,4,8,2,56,AP, ,Wash. Red Delicious,1,,D,FR,NC,12,,,WA
-373,MI,4,9,7,18,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-374,MI,4,9,7,38,AP, ,Unknown,1,,T,FR,NC,11,,,WA
-375,MI,4,9,7,39,AP, ,Unknown,1,,T,FR,NC,14,,,CA
-376,MI,4,9,7,40,AP, ,Granny Smith,1,,T,FR,NC,11,,CA,
-377,MI,4,9,7,42,AP, ,Braeburn,2,275,D,FR,NC,11,,,
-378,MI,4,9,7,56,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-379,MI,4,10,4,8,AP, ,Red Delicious,1,,D,FR,NC,12,,,MI
-380,MI,4,10,4,38,AP, ,Red Delicious,1,,T,FR,NC,11,,,WA
-381,MI,4,10,4,42,AP, ,Granny Smith,1,,D,FR,NC,13,,CA,
-382,MI,4,10,4,47,AP, ,Red Delicious,1,,D,FR,NC,12,,,CA
-383,MI,4,10,4,56,AP, ,Red Delicious,1,,D,FR,NC,9,,WA,
-384,MI,4,10,4,84,AP, ,Granny Smith,1,,D,FR,NC,11,,,MD
-385,MI,4,11,1,21,AP, ,Red Delicious,1,,D,FR,NC,9,,,WA
-386,MI,4,11,1,35,AP, ,Pink Lady,1,,T,FR,NC,10,WA,,
-387,MI,4,11,1,42,AP, ,Red Delicious,1,,D,FR,NC,11,,WA,WA
-388,MI,4,11,1,50,AP, ,Red Delicious,1,,D,FR,NC,13,,,MI
-389,MI,4,11,1,84,AP, ,Ginger Gold,1,,D,FR,NC,11,,,MD
-390,MI,4,11,1,87,AP, ,Mcintosh,1,,D,FR,NC,14,,,
-391,MI,4,12,6,4,AP, ,Red Delicious,1,,D,FR,NC,15,,,MI
-392,MI,4,12,6,21,AP, ,Red Delicious,1,,D,FR,NC,9,,,WA
-393,MI,4,12,6,35,AP, ,Granny Smith,1,,T,FR,NC,9,,WA,
-394,MI,4,12,6,42,AP, ,Unknown,1,,D,FR,NC,11,,,WA
-395,MI,4,12,6,45,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-396,MI,4,12,6,56,AP, ,Unknown,1,,D,FR,NC,8,,,WA
-397,NY,4,1,6,113,AP, ,Granny Smith,1,,T,FR,NC,12,,,WA
-398,NY,4,1,6,127,AP, ,Golden Delicious,1,,D,FR,NC,11,,,WA
-399,NY,4,1,6,138,AP, ,Golden Delicious,1,,D,FR,NC,15,,,MN
-400,NY,4,1,6,152,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-401,NY,4,1,6,226,AP, ,Mcintosh,1,,D,FR,NC,14,,,NY
-402,NY,4,1,6,242,AP, ,Red Delicious,1,,T,FR,NC,11,,,WA
-403,NY,4,1,6,266,AP, ,Macoun,1,,D,FR,NC,15,NY,NY,
-404,NY,4,1,6,272,AP, ,Red Delicious,1,,D,FR,NC,15,,,WA
-405,NY,4,1,6,274,AP, ,Red Delicious,1,,T,FR,NC,12,NY,,
-406,NY,4,2,3,9,AP, ,Mcintosh,1,,D,FR,NC,14,NY,,NY
-407,NY,4,2,3,17,AP, ,Braeburn,1,,D,FR,NC,11,,,MN
-408,NY,4,2,3,21,AP, ,Granny Smith,1,,T,FR,NC,13,,,WA
-409,NY,4,2,3,30,AP, ,Red Delicious,1,,D,FR,NC,17,WA,,
-410,NY,4,2,3,61,AP, ,Red Delicious,1,,T,FR,NC,13,,,WA
-411,NY,4,2,3,152,AP, ,Red Delicious,1,,T,FR,NC,10,,,WA
-412,NY,4,2,3,219,AP, ,Gala,1,,D,FR,NC,14,,,WA
-413,NY,4,2,3,258,AP, ,Mcintosh,1,,D,FR,NC,14,NY,NY,
-414,NY,4,2,3,259,AP, ,Red Delicious,1,,D,FR,NC,15,,,TX
-415,NY,4,3,2,12,AP, ,Granny Smith,1,,D,FR,NC,14,,,TX
-416,NY,4,3,2,53,AP, ,Mcintosh,1,,T,FR,NC,15,NY,,
-417,NY,4,3,2,113,AP, ,Unknown,1,,D,FR,NC,9,WA,,
-418,NY,4,3,2,142,AP, ,Granny Smith,1,,T,FR,NC,15,WA,,
-419,NY,4,3,2,152,AP, ,Royal Gala,1,,D,FR,NC,15,,,WA
-420,NY,4,3,2,153,AP, ,Red Delicious,1,,D,FR,NC,13,WA,,
-421,NY,4,3,2,242,AP, ,Red Delicious,1,,T,FR,NC,10,,,WA
-422,NY,4,3,2,262,AP, ,Mcintosh,1,,D,FR,NC,18,NY,,
-423,NY,4,3,2,270,AP, ,Granny Smith,1,,D,FR,NC,14,,,WA
-424,NY,4,4,6,17,AP, ,Mcintosh,1,,D,FR,NC,20,,,NY
-425,NY,4,4,6,31,AP, ,Cortland,1,,T,FR,NC,10,,,NY
-426,NY,4,4,6,54,AP, ,Red Delicious,1,,T,FR,NC,18,,,WA
-427,NY,4,4,6,79,AP, ,Pink Lady,1,,T,FR,NC,13,WA,,
-428,NY,4,4,6,113,AP, ,Golden Delicious,1,,T,FR,NC,10,,,WA
-429,NY,4,4,6,152,AP, ,Royal Gala,2,UNK,D,FR,NC,15,,,
-430,NY,4,4,6,166,AP, ,Empire,1,,T,FR,NC,18,NY,,
-431,NY,4,4,6,242,AP, ,Royal Gala,2,UNK,T,FR,NC,11,,,OH
-432,NY,4,4,6,276,AP, ,Mcintosh,1,,T,FR,NC,21,NY,,
-433,NY,4,5,4,15,AP, ,Granny Smith,1,,D,FR,NC,20,,,WA
-434,NY,4,5,4,68,AP, ,Fuji,1,,T,FR,NC,11,,,WA
-435,NY,4,5,4,89,AP, ,Red Delicious,1,,T,FR,NC,14,,,WA
-436,NY,4,5,4,113,AP, ,Gala,2,UNK,T,FR,NC,12,,,OH
-437,NY,4,5,4,120,AP, ,Gala,2,275,D,FR,NC,13,,,
-438,NY,4,5,4,186,AP, ,Rome,1,,D,FR,NC,16,NY,,
-439,NY,4,5,4,226,AP, ,Golden Delicious,1,,D,FR,NC,12,,,WA
-440,NY,4,5,4,242,AP, ,Red Delicious,1,,T,FR,NC,9,,,WA
-441,NY,4,5,4,254,AP, ,Mcintosh,1,,D,FR,NC,13,NY,,
-442,NY,4,6,8,68,AP, ,Royal Gala,2,660,T,FR,NC,10,,,
-443,NY,4,6,8,76,AP, ,Red Delicious,1,,T,FR,NC,13,,,VA
-444,NY,4,6,8,79,AP, ,Granny Smith,1,,T,FR,NC,10,WA,,
-445,NY,4,6,8,113,AP, ,Red Delicious,1,,T,FR,NC,12,,,WA
-446,NY,4,6,8,135,AP, ,Unknown,1,,T,FR,NC,12,,,WA
-447,NY,4,6,8,145,AP, ,Red Delicious,1,,S,FR,NC,13,,WA,
-448,NY,4,6,8,261,AP, ,Red Delicious,1,,D,FR,NC,10,,,NY
-449,NY,4,6,8,267,AP, ,Empire,1,,D,FR,NC,11,NY,,
-450,NY,4,6,8,272,AP, ,Red Delicious,1,,S,FR,NC,13,,,WA
-451,NY,4,7,6,31,AP, ,Spartamac,1,,D,FR,NC,16,NY,,
-452,NY,4,7,6,54,AP, ,Red Delicious,1,,T,FR,NC,15,,,WA
-453,NY,4,7,6,55,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-454,NY,4,7,6,68,AP, ,Unknown,1,,D,FR,NC,11,,,WA
-455,NY,4,7,6,113,AP, ,Golden Delicious,1,,D,FR,NC,11,WA,,
-456,NY,4,7,6,127,AP, ,Golden Delicious,1,,D,FR,NC,12,WA,,
-457,NY,4,7,6,152,AP, ,Royal Gala,2,660,T,FR,NC,12,,,
-458,NY,4,7,6,242,AP, ,Unknown,1,,D,FR,NC,10,,,WA
-459,NY,4,7,6,250,AP, ,Royal Gala,2,660,D,FR,NC,14,,,
-460,NY,4,8,3,15,AP, ,Crispan,1,,D,FR,NC,16,NY,,
-461,NY,4,8,3,68,AP, ,Red Delicious,1,,T,FR,NC,11,,,WA
-462,NY,4,8,3,79,AP, ,Golden Delicious,1,,T,FR,NC,14,,,WA
-463,NY,4,8,3,113,AP, ,Red Delicious,1,,T,FR,NC,10,WA,,
-464,NY,4,8,3,142,AP, ,Granny Smith,2,660,T,FR,NC,15,,,
-465,NY,4,8,3,242,AP, ,Red Delicious,1,,T,FR,NC,10,,,WA
-466,NY,4,8,3,258,AP, ,Unknown,1,,D,FR,NC,11,,,WA
-467,NY,4,8,3,265,AP, ,Empire,1,,D,FR,NC,17,NY,,
-468,NY,4,8,3,277,AP, ,Granny Smith,1,,D,FR,NC,13,,,WA
-469,NY,4,9,8,9,AP, ,Mcintosh,1,,D,FR,NC,16,NY,,NY
-470,NY,4,9,8,68,AP, ,Granny Smith,1,,D,FR,NC,14,CA,,
-471,NY,4,9,8,79,AP, ,Rome,1,,T,FR,NC,8,,,NY
-472,NY,4,9,8,113,AP, ,Unknown,1,,T,FR,NC,9,OR,,
-473,NY,4,9,8,138,AP, ,Empire,1,,D,FR,NC,18,NY,,
-474,NY,4,9,8,242,AP, ,Unknown,1,,T,FR,NC,11,,,WA
-475,NY,4,9,8,262,AP, ,Paula Red,1,,D,FR,NC,13,NY,,
-476,NY,4,9,8,268,AP, ,Paula Red,1,,D,FR,NC,20,NY,,
-477,NY,4,9,8,272,AP, ,Braeburn,2,660,D,FR,NC,9,,,
-478,NY,4,10,5,6,AP, ,Gala,1,,D,FR,NC,20,WA,,
-479,NY,4,10,5,17,AP, ,Unknown,1,,D,FR,NC,17,,,MN
-480,NY,4,10,5,30,AP, ,Red Delicious,1,,D,FR,NC,11,WA,,
-481,NY,4,10,5,55,AP, ,Unknown,1,,D,FR,NC,13,,,WA
-482,NY,4,10,5,68,AP, ,Gala,1,,T,FR,NC,10,,,WA
-483,NY,4,10,5,71,AP, ,Granny Smith,1,,T,FR,NC,11,,,WA
-484,NY,4,10,5,113,AP, ,Red Delicious,1,,T,FR,NC,10,,OR,
-485,NY,4,10,5,120,AP, ,Fuji,2,660,H,FR,NC,20,,,
-486,NY,4,10,5,242,AP, ,Red Delicious,1,,T,FR,NC,9,WA,,
-487,NY,4,11,2,36,AP, ,Jonamac,1,,D,FR,NC,16,NY,,
-488,NY,4,11,2,68,AP, ,Fuji,1,,T,FR,NC,9,,,WA
-489,NY,4,11,2,71,AP, ,Red Delicious,1,,T,FR,NC,10,,,WA
-490,NY,4,11,2,79,AP, ,Granny Smith,1,,T,FR,NC,10,,CA,
-491,NY,4,11,2,113,AP, ,Mcintosh,1,,T,FR,NC,15,,,NY
-492,NY,4,11,2,128,AP, ,Red Delicious,1,,D,FR,NC,13,,WA,
-493,NY,4,11,2,156,AP, ,Red Delicious,1,,D,FR,NC,13,,,WA
-494,NY,4,11,2,262,AP, ,Granny Smith,1,,D,FR,NC,16,WA,,
-495,NY,4,11,2,272,AP, ,Braeburn,1,,D,FR,NC,13,,,WA
-496,NY,4,12,7,55,AP, ,Mcintosh,1,,D,FR,NC,19,NY,,
-497,NY,4,12,7,79,AP, ,Macintosh,1,,T,FR,NC,14,NY,,
-498,NY,4,12,7,113,AP, ,Red Delicious,1,,T,FR,NC,11,WA,,
-499,NY,4,12,7,145,AP, ,Red Delicious,1,,D,FR,NC,13,,,WA
-500,NY,4,12,7,156,AP, ,Golden Delicious,1,,D,FR,NC,14,,,WA
-501,NY,4,12,7,259,AP, ,Fuji,1,,D,FR,NC,16,NY,,
-502,NY,4,12,7,265,AP, ,Red Delicious,1,,D,FR,NC,15,,,NY
-503,NY,4,12,7,268,AP, ,Empire,1,,T,FR,NC,22,NY,,
-504,NY,4,12,7,273,AP, ,Red Delicious,1,,T,FR,NC,11,WA,,
-505,OH,4,1,12,105,AP, ,Unknown,1,,D,FR,NC,12,,,WA
-506,OH,4,1,12,107,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-507,OH,4,1,12,206,AP, ,Golden Delicious,1,,D,FR,NC,13,,,WA
-508,OH,4,1,12,210,AP, ,Granny Smith,1,,D,FR,NC,18,,,WA
-509,OH,4,1,12,300,AP, ,Red Delicious,1,,D,FR,NC,13,,,WA
-510,OH,4,1,12,412,AP, ,Golden Delicious,1,,D,FR,NC,17,,,WA
-511,OH,4,2,9,100,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-512,OH,4,2,9,104,AP, ,Red Delicious,1,,D,FR,NC,24,,,WA
-513,OH,4,2,9,118,AP, ,Red Delicious,1,,D,FR,NC,18,,MI,MI
-514,OH,4,2,9,205,AP, ,Red Delicious,1,,D,FR,NC,9,,WA,
-515,OH,4,2,9,307,AP, ,Royal Gala,1,,D,FR,NC,8,,,WA
-516,OH,4,2,9,407,AP, ,Rome,1,,D,FR,NC,12,OH,OH,OH
-517,OH,4,3,8,107,AP, ,Unknown,1,,D,FR,NC,14,,,WA
-518,OH,4,3,8,115,AP, ,Unknown,1,,D,FR,NC,13,,WA,WA
-519,OH,4,3,8,206,AP, ,Golden Delicious,1,,D,FR,NC,13,,,WA
-520,OH,4,3,8,229,AP, ,Unknown,1,,D,FR,NC,13,,,WA
-521,OH,4,3,8,401,AP, ,Golden Delicious,1,,D,FR,NC,15,WA,,
-522,OH,4,3,8,412,AP, ,Granny Smith,1,,D,FR,NC,13,,,WA
-523,OH,4,4,12,107,AP, ,Red Delicious,1,,D,FR,NC,9,,,WA
-524,OH,4,4,12,115,AP, ,Red Delicious,1,,D,FR,NC,23,,,WA
-525,OH,4,4,12,206,AP, ,Granny Smith,1,,D,FR,NC,10,,,WA
-526,OH,4,4,12,300,AP, ,Red Delicious,1,,D,FR,NC,15,,,WA
-527,OH,4,4,12,402,AP, ,Red Delicious,1,,D,FR,NC,17,,,WA
-528,OH,4,4,12,412,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-529,OH,4,5,10,105,AP, ,Red Delicious,1,,D,FR,NC,17,,,WA
-530,OH,4,5,10,107,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-531,OH,4,5,10,118,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-532,OH,4,5,10,205,AP, ,Granny Smith,1,,D,FR,NC,11,,,WA
-533,OH,4,5,10,208,AP, ,Granny Smith,1,,D,FR,NC,13,,,WA
-534,OH,4,5,10,405,AP, ,Unknown,1,,D,FR,NC,13,,,WA
-535,OH,4,6,14,103,AP, ,Unknown,1,,D,FR,NC,16,,,WA
-536,OH,4,6,14,115,AP, ,Red Delicious,1,,D,FR,NC,20,,WA,WA
-537,OH,4,6,14,203,AP, ,Golden Delicious,1,,D,FR,NC,11,,,WA
-538,OH,4,6,14,229,AP, ,Unknown,1,,D,FR,NC,14,,,WA
-539,OH,4,6,14,400,AP, ,Unknown,1,,D,FR,NC,15,,,WA
-540,OH,4,6,14,410,AP, ,Unknown,1,,D,FR,NC,15,,,WA
-541,OH,4,7,12,100,AP, ,Unknown,2,660,D,FR,NC,12,,,
-542,OH,4,7,12,107,AP, ,Unknown,1,,D,FR,NC,22,,,WA
-543,OH,4,7,12,202,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-544,OH,4,7,12,229,AP, ,Unknown,1,,D,FR,NC,14,,WA,
-545,OH,4,7,12,400,AP, ,Granny Smith,2,275,D,FR,NC,14,,,
-546,OH,4,7,12,410,AP, ,Unknown,1,,D,FR,NC,14,,,WA
-547,OH,4,8,9,100,AP, ,Unknown,2,660,D,FR,NC,10,,,
-548,OH,4,8,9,115,AP, ,Unknown,1,,D,FR,NC,13,,WA,WA
-549,OH,4,8,9,205,AP, ,Red Delicious,1,,D,FR,NC,9,,,WA
-550,OH,4,8,9,206,AP, ,Granny Smith,1,,D,FR,NC,10,,,WA
-551,OH,4,8,9,402,AP, ,Unknown,1,,D,FR,NC,12,,,WA
-552,OH,4,8,9,412,AP, ,Unknown,1,,D,FR,NC,11,,,WA
-553,OH,4,9,13,105,AP, ,Unknown,1,,D,FR,NC,16,WA,WA,WA
-554,OH,4,9,13,107,AP, ,Golden Delicious,1,,D,FR,NC,15,,,WA
-555,OH,4,9,13,118,AP, ,Ginger Gold,1,,D,FR,NC,14,,MI,
-556,OH,4,9,13,208,AP, ,Red Delicious,1,,D,FR,NC,15,,,WA
-557,OH,4,9,13,212,AP, ,Red Delicious,1,,D,FR,NC,9,,,WA
-558,OH,4,9,13,404,AP, ,Paula Red,1,,D,FR,NC,22,OH,,
-559,OH,4,10,12,107,AP, ,Unknown,1,,D,FR,NC,11,,PA,PA
-560,OH,4,10,12,112,AP, ,Red Delicious,1,,D,FR,NC,15,WA,WA,WA
-561,OH,4,10,12,205,AP, ,Golden Delicious,1,,D,FR,NC,13,,,WA
-562,OH,4,10,12,206,AP, ,Jonagold,1,,D,FR,NC,9,,,WA
-563,OH,4,10,12,404,AP, ,Golden Delicious,1,,D,FR,NC,12,,WA,
-564,OH,4,10,12,412,AP, ,Golden Delicious,1,,D,FR,NC,21,,,MI
-565,OH,4,11,8,100,AP, ,Red Delicious,1,,D,FR,NC,7,,,WA
-566,OH,4,11,8,107,AP, ,Golden Delicious,1,,D,FR,NC,17,,PA,
-567,OH,4,11,8,206,AP, ,Granny Smith,1,,D,FR,NC,14,,,CA
-568,OH,4,11,8,210,AP, ,Empire,1,,D,FR,NC,18,,,
-569,OH,4,11,8,307,AP, ,Golden Delicious,1,,D,FR,NC,16,,,
-570,OH,4,11,8,407,AP, ,Unknown,1,,D,FR,NC,14,,,WA
-571,OH,4,12,13,107,AP, ,Unknown,1,,D,FR,NC,14,,,WA
-572,OH,4,12,13,112,AP, ,Red Delicious,1,,D,FR,NC,11,,WA,
-573,OH,4,12,13,203,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-574,OH,4,12,13,401,AP, ,Red Delicious,1,,D,FR,NC,14,,,MI
-575,OH,4,12,13,412,AP, ,Red Delicious,1,,D,FR,NC,17,,,WA
-576,OH,4,12,15,229,AP, ,Unknown,1,,D,FR,NC,14,,,WA
-577,TX,4,1,12,30,AP, ,Unknown,1,,D,FR,NC,12,CA,,
-578,TX,4,1,12,104,AP, ,Unknown,1,,T,FR,NC,19,,,WA
-579,TX,4,1,12,105,AP, ,Unknown,1,,D,FR,NC,21,,,WA
-580,TX,4,1,12,201,AP, ,Fuji,1,,D,FR,NC,15,TX,,TX
-581,TX,4,1,12,405,AP, ,Golden Delicious,1,,D,FR,NC,13,,,MN
-582,TX,4,1,12,407,AP, ,Mcintosh,1,,D,FR,NC,14,,,NY
-583,TX,4,1,12,408,AP, ,Unknown,1,,T,FR,NC,20,,,WA
-584,TX,4,1,13,419,AP, ,Granny Smith,1,,D,FR,NC,21,WA,,WA
-585,TX,4,2,9,40,AP, ,Fuji,1,,D,FR,NC,12,,,WA
-586,TX,4,2,9,104,AP, ,Red Delicious,1,,T,FR,NC,16,,,WA
-587,TX,4,2,9,108,AP, ,Unknown,1,,T,FR,NC,8,,,WA
-588,TX,4,2,9,207,AP, ,Pink Lady,1,,D,FR,NC,14,,,WA
-589,TX,4,2,9,406,AP, ,Empire,1,,D,FR,NC,14,,,NY
-590,TX,4,2,9,408,AP, ,Unknown,1,,T,FR,NC,14,,,WA
-591,TX,4,2,9,409,AP, ,Unknown,1,,D,FR,NC,10,WA,,
-592,TX,4,2,9,419,AP, ,Granny Smith,1,,D,FR,NC,16,WA,,WA
-593,TX,4,3,8,20,AP, ,Red Delicious,1,,D,FR,NC,8,WA,,
-594,TX,4,3,8,103,AP, ,Red Delicious,1,,D,FR,NC,11,WA,,
-595,TX,4,3,8,104,AP, ,Red Delicious,1,,T,FR,NC,9,,,MI
-596,TX,4,3,8,300,AP, ,Gala,1,,D,FR,NC,13,,,WA
-597,TX,4,3,8,407,AP, ,Red Delicious,1,,D,FR,NC,18,,,WA
-598,TX,4,3,8,408,AP, ,Unknown,1,,T,FR,NC,15,,,WA
-599,TX,4,3,8,419,AP, ,Red Delicious,1,,D,FR,NC,13,MI,,MI
-600,TX,4,3,9,201,AP, ,Ambrosia,2,260,D,FR,NC,13,,,
-601,TX,4,4,5,408,AP, ,Unknown,1,,T,FR,NC,30,,,WA
-602,TX,4,4,12,40,AP, ,Fuji,1,,D,FR,NC,10,,,WA
-603,TX,4,4,12,201,AP, ,Gala,1,,D,FR,NC,13,,,WA
-604,TX,4,4,12,204,AP, ,Gala,1,,T,FR,NC,12,,,WA
-605,TX,4,4,12,405,AP, ,Red Delicious,1,,D,FR,NC,13,,,MN
-606,TX,4,4,12,409,AP, ,Unknown,1,,D,FR,NC,20,WA,,
-607,TX,4,4,13,104,AP, ,Washington Ex Fancy,1,,T,FR,NC,11,,,WA
-608,TX,4,4,13,107,AP, ,Cameo Washington Ex,1,,D,FR,NC,12,,,WA
-609,TX,4,5,10,1,AP, ,Red Delicious,1,,D,FR,NC,14,WA,,TX
-610,TX,4,5,10,103,AP, ,Unknown,1,,D,FR,NC,12,,,NY
-611,TX,4,5,10,104,AP, ,Red Delicious,1,,T,FR,NC,13,,,WA
-612,TX,4,5,10,406,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-613,TX,4,5,10,409,AP, ,Unknown,1,,D,FR,NC,18,WA,,
-614,TX,4,5,11,201,AP, ,Acey Mac,1,,D,FR,NC,14,,,NY
-615,TX,4,5,11,215,AP, ,Red Delicious,1,,D,FR,NC,13,WA,,
-616,TX,4,5,11,419,AP, ,Red Delicious,1,,D,FR,NC,12,WA,,WA
-617,TX,4,6,14,30,AP, ,Unknown,1,,D,FR,NC,11,WA,,
-618,TX,4,6,14,104,AP, ,Unknown,1,,T,FR,NC,16,,,NY
-619,TX,4,6,14,105,AP, ,Unknown,1,,D,FR,NC,12,WA,,WA
-620,TX,4,6,14,201,AP, ,Royal Gala,2,660,D,FR,NC,13,,,
-621,TX,4,6,14,300,AP, ,Gala,1,,D,FR,NC,11,,,WA
-622,TX,4,6,14,407,AP, ,Red Delicious,1,,D,FR,NC,14,,,WA
-623,TX,4,6,14,408,AP, ,Unknown,1,,T,FR,NC,12,WA,,
-624,TX,4,6,14,419,AP, ,Fuji,1,,D,FR,NC,12,WA,,
-625,TX,4,7,6,407,AP, ,Red Delicious,1,,D,FR,NC,18,,,WA
-626,TX,4,7,6,408,AP, ,Unknown,1,,T,FR,NC,16,WA,,WA
-627,TX,4,7,7,300,AP, ,Royal Gala,2,275,D,FR,NC,12,,,
-628,TX,4,7,12,104,AP, ,Unknown,1,,T,FR,NC,13,,,WA
-629,TX,4,7,12,105,AP, ,Red Delicious,1,,D,FR,NC,18,,,WA
-630,TX,4,7,12,201,AP, ,Red Delicious,1,,D,FR,NC,16,WA,WA,WA
-631,TX,4,7,19,30,AP, ,Unknown,1,,D,FR,NC,10,WA,,
-632,TX,4,7,19,419,AP, ,Red Delicious,1,,D,FR,NC,13,WA,,WA
-633,TX,4,8,2,30,AP, ,Unknown,1,,D,FR,NC,9,,,WA
-634,TX,4,8,9,104,AP, ,Ex Fancy Granny Smit,1,,T,FR,NC,13,,,WA
-635,TX,4,8,9,107,AP, ,Red Delicious,1,,D,FR,NC,13,,,WA
-636,TX,4,8,9,201,AP, ,Braeburn,2,660,D,FR,PO,15,,,
-637,TX,4,8,9,405,AP, ,Granny Smith,1,,D,FR,NC,16,,,WA
-638,TX,4,8,9,408,AP, ,Unknown,1,,T,FR,NC,22,WA,WA,
-639,TX,4,8,9,409,AP, ,Unknown,1,,D,FR,NC,20,WA,,
-640,TX,4,8,9,419,AP, ,Granny Smith,1,,D,FR,NC,19,WA,WA,WA
-641,TX,4,9,13,103,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-642,TX,4,9,13,104,AP, ,Granny Smith,1,,T,FR,NC,18,,CA,
-643,TX,4,9,13,201,AP, ,Fuji,2,UNK,D,FR,PO,12,,,
-644,TX,4,9,13,211,AP, ,Fuji,1,,D,FR,NC,16,CA,,
-645,TX,4,9,13,406,AP, ,Gala,1,,D,FR,NC,22,,,CA
-646,TX,4,9,13,408,AP, ,Red Delicious,1,,T,FR,NC,12,,,WA
-647,TX,4,9,13,419,AP, ,Red Delicious,1,,D,FR,NC,12,WA,WA,WA
-648,TX,4,9,13,502,AP, ,Unknown,1,,D,FR,NC,13,WA,,
-649,TX,4,10,11,30,AP, ,Not Stated,1,,D,FR,NC,12,,,WA
-650,TX,4,10,11,103,AP, ,Gala,1,,D,FR,NC,10,,,WA
-651,TX,4,10,11,104,AP, ,Jonathan,1,,T,FR,NC,17,MO,MO,
-652,TX,4,10,11,201,AP, ,Cameo,1,,D,FR,NC,11,,,WA
-653,TX,4,10,11,215,AP, ,Red Delicious,1,,D,FR,NC,11,WA,,WA
-654,TX,4,10,11,407,AP, ,Gala,1,,D,FR,NC,14,,,WA
-655,TX,4,10,11,408,AP, ,Red Delicious,1,,T,FR,NC,12,,,WA
-656,TX,4,10,11,419,AP, ,Red Delicious,1,,D,FR,NC,10,,WA,WA
-657,TX,4,11,8,40,AP, ,Fuji,1,,D,FR,NC,11,,WA,
-658,TX,4,11,8,104,AP, ,Red Delicious,1,,T,FR,NC,11,,,WA
-659,TX,4,11,8,105,AP, ,Granny Smith,1,,D,FR,NC,12,,CA,CA
-660,TX,4,11,8,201,AP, ,Liberty,1,,D,FR,PO,14,,OR,OR
-661,TX,4,11,8,405,AP, ,Golden Delicious,1,,D,FR,NC,15,,,WA
-662,TX,4,11,8,408,AP, ,Red Delicious,1,,T,FR,NC,10,,,WA
-663,TX,4,11,8,409,AP, ,Golden Delicious,1,,D,FR,NC,20,,WA,
-664,TX,4,11,8,419,AP, ,Red Delicious,1,,D,FR,NC,12,,MI,MI
-665,TX,4,12,13,20,AP, ,Red Delicious,1,,D,FR,NC,9,,WA,
-666,TX,4,12,13,104,AP, ,Red Delicious,1,,T,FR,NC,12,,,WA
-667,TX,4,12,13,107,AP, ,Unknown,2,260,D,FR,NC,12,,,
-668,TX,4,12,13,201,AP, ,Red Granny,1,,D,FR,NC,17,CA,,
-669,TX,4,12,13,300,AP, ,Golden Delicious,1,,D,FR,NC,13,,,WA
-670,TX,4,12,13,406,AP, ,Red Rome,1,,D,FR,NC,13,,,NY
-671,TX,4,12,13,408,AP, ,Red Delicious,1,,T,FR,NC,12,,,WA
-672,TX,4,12,13,419,AP, ,Jonathan,1,,D,FR,NC,17,,MI,MI
-673,WA,4,1,12,1,AP, ,Red Delicious,1,,D,FR,NC,12,WA,,
-674,WA,4,1,12,4,AP, ,Granny Smith,1,,D,FR,NC,14,,,WA
-675,WA,4,1,12,7,AP, ,Royal Gala,1,,D,FR,NC,18,WA,,
-676,WA,4,1,12,23,AP, ,Red Delicious,1,,D,FR,NC,13,WA,,MD
-677,WA,4,2,9,1,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-678,WA,4,2,9,4,AP, ,Braeburn,1,,D,FR,NC,14,,,WA
-679,WA,4,2,9,8,AP, ,Red Delicious,1,,D,FR,NC,12,WA,,
-680,WA,4,2,9,30,AP, ,Red Delicious,1,,D,FR,NC,16,,,WA
-681,WA,4,3,8,2,AP, ,Braeburn,1,,D,FR,NC,12,,,WA
-682,WA,4,3,8,4,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-683,WA,4,3,8,10,AP, ,Braeburn,1,,D,FR,NC,12,,,WA
-684,WA,4,3,8,32,AP, ,Pink Lady,1,,D,FR,NC,11,WA,WA,WA
-685,WA,4,4,12,2,AP, ,Braeburn,1,,D,FR,NC,12,,,WA
-686,WA,4,4,12,4,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-687,WA,4,4,12,10,AP, ,Granny Smith,1,,D,FR,NC,15,,,WA
-688,WA,4,4,12,32,AP, ,Royal Gala,1,,D,FR,NC,12,,,WA
-689,WA,4,5,10,1,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-690,WA,4,5,10,2,AP, ,Fuji,1,,D,FR,NC,13,,,WA
-691,WA,4,5,10,7,AP, ,Red Delicious,1,,D,FR,NC,10,WA,,
-692,WA,4,5,10,23,AP, ,Red Delicious,1,,D,FR,NC,9,,,WA
-693,WA,4,6,14,1,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-694,WA,4,6,14,4,AP, ,Southern Rose,2,660,D,FR,NC,14,,,
-695,WA,4,6,14,8,AP, ,Fuji,1,,D,FR,NC,20,,,WA
-696,WA,4,6,14,30,AP, ,Unknown,1,,D,FR,NC,9,,,WA
-697,WA,4,7,12,1,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-698,WA,4,7,12,4,AP, ,Braeburn,2,660,D,FR,NC,11,,,
-699,WA,4,7,12,8,AP, ,Fuji,1,,D,FR,NC,20,,,WA
-700,WA,4,7,12,30,AP, ,Red Delicious,1,,D,FR,NC,10,,,WA
-701,WA,4,8,9,2,AP, ,Fuji,1,,D,FR,NC,17,,,WA
-702,WA,4,8,9,3,AP, ,Fuji,1,,D,FR,NC,8,,,WA
-703,WA,4,8,9,5,AP, ,Fuji,1,,D,FR,NC,12,,,WA
-704,WA,4,8,9,32,AP, ,Unknown,1,,D,FR,NC,12,,WA,
-705,WA,4,9,13,1,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-706,WA,4,9,13,7,AP, ,Unknown,1,,D,FR,NC,13,,WA,
-707,WA,4,9,13,16,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-708,WA,4,9,13,23,AP, ,Red Delicious,1,,D,FR,NC,13,,,WA
-709,WA,4,10,11,1,AP, ,Red Delicious,1,,D,FR,NC,8,,,WA
-710,WA,4,10,11,8,AP, ,Fuji,1,,D,FR,NC,13,,WA,
-711,WA,4,10,11,23,AP, ,Red Delicious,1,,D,FR,NC,16,,,WA
-712,WA,4,10,11,30,AP, ,Unknown,1,,D,FR,NC,11,,WA,
-713,WA,4,11,8,1,AP, ,Red Delicious,1,,D,FR,NC,10,WA,,
-714,WA,4,11,8,4,AP, ,Golden Delicious,1,,D,FR,NC,16,,,WA
-715,WA,4,11,8,11,AP, ,Gala,2,260,D,FR,NC,27,,,
-716,WA,4,11,8,32,AP, ,Unknown,1,,D,FR,NC,15,,,WA
-717,WA,4,12,13,3,AP, ,Red Delicious,1,,D,FR,NC,11,,,WA
-718,WA,4,12,13,7,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-719,WA,4,12,13,16,AP, ,Red Delicious,1,,D,FR,NC,10,,WA,
-720,WA,4,12,13,33,AP, ,Unknown,1,,D,FR,NC,8,,,WA
-721,WI,4,1,12,114,AP, ,Red Delicious,1,,D,FR,NC,12,,,CA
-722,WI,4,1,12,118,AP, ,Red Delicious,1,,D,FR,NC,12,,,WA
-723,WI,4,2,9,101,AP, ,Unknown,1,,D,FR,NC,15,,,
-724,WI,4,2,9,123,AP, ,Red Delicious,1,,D,FR,NC,10,,,
-725,WI,4,3,8,103,AP, ,Unknown,1,,D,FR,NC,17,,,WI
-726,WI,4,3,8,114,AP, ,Unknown,1,,D,FR,NC,16,,,WA
-727,WI,4,4,12,123,AP, ,Red Delicious,1,,D,FR,NC,14,,,
-728,WI,4,4,14,114,AP, ,Unknown,1,,D,FR,NC,15,CA,,
-729,WI,4,5,10,103,AP, ,Red Delicious,1,,D,FR,NC,13,,,WI
-730,WI,4,5,10,114,AP, ,Unknown,1,,D,FR,NC,14,,,CA
-731,WI,4,6,14,118,AP, ,Red Delicious,1,,D,FR,NC,13,,WA,
-732,WI,4,6,14,122,AP, ,Unknown,1,,D,FR,NC,16,WA,,
-733,WI,4,7,12,114,AP, ,Granny Smith,1,,D,FR,NC,14,,,CA
-734,WI,4,7,12,123,AP, ,Red Delicious,1,,D,FR,NC,13,,,TX
-735,WI,4,8,9,101,AP, ,Red Delicious,1,,D,FR,NC,15,,,WA
-736,WI,4,8,9,123,AP, ,Granny Smith,1,,D,FR,NC,10,,,TX
-737,WI,4,9,13,118,AP, ,Golden Delicious,1,,D,FR,NC,14,,,WA
-738,WI,4,9,13,119,AP, ,Red Delicious,1,,D,FR,NC,12,,WA,
-739,WI,4,10,11,103,AP, ,Red Delicious,1,,D,FR,NC,15,,,WI
-740,WI,4,10,11,119,AP, ,Red Delicious,1,,D,FR,NC,13,,WA,
-741,WI,4,11,8,101,AP, ,Red Delicious,1,,D,FR,NC,14,,,WA
-742,WI,4,11,8,123,AP, ,Granny Smith,1,,D,FR,NC,12,,,TX
-743,WI,4,12,13,108,AP, ,Red Delicious,1,,D,FR,NC,15,,,WA
-744,WI,4,12,13,118,AP, ,Granny Smith,1,,D,FR,NC,14,,,WA
+SAMPLE_PK,STATE,YEAR,MONTH,DATE,SITE,COMMODITY,SOURCE_ID,VARIETY,GRADE,ORIGIN,COUNTRY,DISTTYPE,COMMTYPE,CLAIM,QUANTITY,GROWST,PACKST,DISTST
+1,CA,4,1,7,1,AP, ,Pink Lady,,1,,D,FR,NC,15,,WA,
+2,CA,4,1,7,10,AP, ,Gala,,1,,D,FR,NC,10,,,WA
+3,CA,4,1,7,17,AP, ,Red Delicious,,1,,D,FR,NC,15,,,WA
+4,CA,4,1,7,74,AP, ,Braeburn,,1,,T,FR,NC,11,,,WA
+5,CA,4,1,7,130,AP, ,Red Delicious,,1,,H,FR,NC,15,,WA,WA
+6,CA,4,1,7,152,AP, ,Golden Delicious,,1,,D,FR,NC,15,,,WA
+7,CA,4,1,7,212,AP, ,Granny Smith,,1,,T,FR,NC,12,,,WA
+8,CA,4,1,7,252,AP, ,Golden Delicious,,1,,D,FR,NC,15,,,WA
+9,CA,4,1,7,390,AP, ,Granny Smith,,1,,L,FR,NC,17,,,WA
+10,CA,4,1,7,447,AP, ,Red Delicious,,1,,H,FR,NC,18,,WA,WA
+11,CA,4,1,7,450,AP, ,Fuji,,1,,D,FR,NC,10,,WA,WA
+12,CA,4,1,7,469,AP, ,Fuji,,1,,O,FR,NC,10,,,WA
+13,CA,4,1,7,470,AP, ,Red Delicious,,1,,O,FR,NC,13,WA,,WA
+14,CA,4,1,7,484,AP,P,Cameo,,1,,R,FR,PO,11,,,WA
+15,CA,4,2,4,10,AP, ,Fuji,,1,,D,FR,NC,22,,,WA
+16,CA,4,2,4,55,AP, ,Fuji,,1,,T,FR,NC,12,,WA,
+17,CA,4,2,4,87,AP, ,Red Delicious,,1,,T,FR,NC,16,,WA,WA
+18,CA,4,2,4,99,AP, ,Fuji,,1,,T,FR,NC,12,,,WA
+19,CA,4,2,4,122,AP, ,Fuji,,1,,D,FR,NC,20,,,WA
+20,CA,4,2,4,128,AP, ,Red Delicious,,1,,H,FR,NC,16,,,WA
+21,CA,4,2,4,136,AP, ,Fuji,,1,,O,FR,NC,19,CA,CA,
+22,CA,4,2,4,217,AP, ,Red Delicious,,1,,T,FR,NC,17,,,WA
+23,CA,4,2,4,263,AP, ,Fuji,,1,,T,FR,NC,22,,WA,
+24,CA,4,2,4,278,AP, ,Granny Smith,,1,,D,FR,NC,12,,,WA
+25,CA,4,2,4,399,AP, ,Red Delicious,,1,,H,FR,NC,26,,,WA
+26,CA,4,2,4,447,AP, ,Fuji,,1,,H,FR,NC,21,,WA,WA
+27,CA,4,2,4,450,AP, ,Gala,,1,,D,FR,NC,13,,WA,
+28,CA,4,2,4,473,AP, ,Red Delicious,,2,260,H,FR,NC,10,,,
+29,CA,4,3,3,0,AP,P,Red Delicious,,1,,T,FR,NC,10,,,WA
+30,CA,4,3,3,11,AP, ,Red Delicious,,1,,T,FR,NC,16,,,WA
+31,CA,4,3,3,121,AP, ,Fuji,,1,,T,FR,NC,12,,,WA
+32,CA,4,3,3,128,AP, ,Red Delicious,,1,,H,FR,NC,13,,WA,
+33,CA,4,3,3,130,AP, ,Fuji,,1,,O,FR,NC,18,,WA,
+34,CA,4,3,3,140,AP, ,Red Delicious,,1,,D,FR,NC,10,,WA,WA
+35,CA,4,3,3,192,AP, ,Unknown,,1,,H,FR,NC,10,,WA,
+36,CA,4,3,3,225,AP, ,Fuji,,1,,H,FR,NC,11,,,WA
+37,CA,4,3,3,254,AP, ,Pink Lady,,1,,H,FR,NC,18,,,WA
+38,CA,4,3,3,277,AP, ,Granny Smith,,1,,T,FR,NC,12,,,WA
+39,CA,4,3,3,442,AP, ,Fuji,,1,,H,FR,NC,6,,,WA
+40,CA,4,3,3,447,AP, ,Fuji,,1,,O,FR,NC,20,,,WA
+41,CA,4,3,3,473,AP, ,Fuji,,1,,H,FR,NC,11,,WA,WA
+42,CA,4,3,3,553,AP, ,Fuji,,1,,R,FR,NC,12,,,WA
+43,CA,4,4,12,4,AP, ,Gala,,1,,D,FR,NC,24,,,WA
+44,CA,4,4,12,38,AP, ,Braeburn,,1,,T,FR,NC,11,,WA,
+45,CA,4,4,12,111,AP, ,Golden Delicious,,1,,H,FR,NC,12,,,WA
+46,CA,4,4,12,130,AP, ,Red Delicious,,1,,H,FR,NC,10,,,WA
+47,CA,4,4,12,152,AP, ,Fuji,,1,,D,FR,NC,14,,,WA
+48,CA,4,4,12,177,AP, ,Unknown,,1,,H,FR,NC,11,,,WA
+49,CA,4,4,12,254,AP, ,Fuji,,1,,H,FR,NC,15,,,WA
+50,CA,4,4,12,273,AP, ,Cameo,,1,,D,FR,NC,10,,,WA
+51,CA,4,4,12,274,AP, ,Jonagold,,1,,D,FR,NC,10,,,WA
+52,CA,4,4,12,278,AP, ,Granny Smith,,1,,T,FR,NC,11,,,WA
+53,CA,4,4,12,344,AP, ,Fuji,,1,,T,FR,NC,12,,,WA
+54,CA,4,4,12,390,AP, ,Unknown,,1,,H,FR,NC,16,,,WA
+55,CA,4,4,12,469,AP, ,Granny Smith,,1,,H,FR,NC,10,,,WA
+56,CA,4,4,12,472,AP, ,Red Delicious,,1,,H,FR,NC,10,,,WA
+57,CA,4,5,24,4,AP, ,Granny Smith,,1,,D,FR,NC,20,,,WA
+58,CA,4,5,24,17,AP, ,Red Delicious,,1,,D,FR,NC,30,,,WA
+59,CA,4,5,24,20,AP, ,Gala,,2,275,D,FR,NC,10,,,
+60,CA,4,5,24,38,AP, ,Red Delicious,,1,,T,FR,NC,18,,,WA
+61,CA,4,5,24,55,AP, ,Fuji,,1,,T,FR,NC,12,,WA,
+62,CA,4,5,24,128,AP, ,Red Delicious,,1,,H,FR,NC,12,,,WA
+63,CA,4,5,24,130,AP, ,Fuji,,1,,H,FR,NC,11,,,WA
+64,CA,4,5,24,136,AP, ,Red Delicious,,1,,H,FR,NC,27,,WA,WA
+65,CA,4,5,24,152,AP, ,Gala,,2,660,D,FR,NC,14,,,
+66,CA,4,5,24,307,AP, ,Cameo,,1,,D,FR,NC,9,,,CA
+67,CA,4,5,24,390,AP, ,Golden Delicious,,1,,O,FR,NC,23,,,WA
+68,CA,4,5,24,447,AP, ,Jonagold,,1,,H,FR,NC,18,,WA,WA
+69,CA,4,5,24,473,AP, ,Granny Smith,,1,,H,FR,NC,14,,,WA
+70,CA,4,5,24,553,AP, ,Braeburn,,1,,L,FR,NC,16,,,WA
+71,CA,4,6,28,17,AP, ,Golden Delicious,,1,,D,FR,NC,12,,WA,
+72,CA,4,6,28,49,AP, ,Granny Smith,,1,,T,FR,NC,7,,WA,
+73,CA,4,6,28,111,AP, ,Granny Smith,,1,,H,FR,NC,11,,WA,WA
+74,CA,4,6,28,128,AP, ,Red Delicious,,1,,H,FR,NC,11,,WA,
+75,CA,4,6,28,192,AP, ,Fuji,,1,,T,FR,NC,23,,,WA
+76,CA,4,6,28,225,AP, ,Gala,,1,,T,FR,NC,13,,,WA
+77,CA,4,6,28,275,AP, ,Fuji,,2,275,T,FR,NC,10,,,
+78,CA,4,6,28,400,AP, ,Red Delicious,,1,,O,FR,PO,11,,,WA
+79,CA,4,6,28,419,AP, ,Fuji,,2,275,T,FR,NC,11,,,
+80,CA,4,6,28,447,AP, ,Red Delicious,,1,,H,FR,NC,17,,,WA
+81,CA,4,6,28,469,AP, ,Red Delicious,,1,,H,FR,NC,10,,,WA
+82,CA,4,6,28,472,AP, ,Golden Delicious,,1,,H,FR,NC,10,,,WA
+83,CA,4,6,29,231,AP, ,Gala,,2,660,T,FR,NC,17,,,
+84,CA,4,6,29,277,AP, ,Red Delicious,,1,,T,FR,NC,12,,,WA
+85,CA,4,7,6,1,AP, ,Gala,,2,660,D,FR,NC,10,,,
+86,CA,4,7,6,20,AP, ,Golden Delicious,,1,,T,FR,NC,10,,WA,
+87,CA,4,7,6,69,AP, ,Fuji,,1,,T,FR,NC,11,,WA,
+88,CA,4,7,6,77,AP, ,Granny Smith,,2,275,T,FR,NC,11,,,
+89,CA,4,7,6,111,AP, ,Red Delicious,,1,,H,FR,NC,11,,,WA
+90,CA,4,7,6,128,AP, ,Red Delicious,,1,,H,FR,NC,11,,WA,
+91,CA,4,7,6,130,AP, ,Red Delicious,,1,,H,FR,NC,10,,,WA
+92,CA,4,7,6,140,AP, ,Red Delicious,,1,,D,FR,NC,14,,,WA
+93,CA,4,7,6,142,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+94,CA,4,7,6,273,AP, ,Gala,,2,660,D,FR,NC,17,,,
+95,CA,4,7,6,274,AP, ,Fuji,,1,,T,FR,NC,19,,,WA
+96,CA,4,7,6,307,AP, ,Fuji,,1,,D,FR,NC,8,,WA,
+97,CA,4,7,6,432,AP, ,Granny Smith,,1,,O,FR,NC,12,,,WA
+98,CA,4,7,6,469,AP, ,Golden Delicious,,1,,H,FR,NC,10,,,WA
+99,CA,4,8,4,10,AP, ,Fuji,,2,660,T,FR,NC,16,,,
+100,CA,4,8,4,69,AP, ,Fuji,,2,660,T,FR,NC,12,,,
+101,CA,4,8,4,111,AP, ,Red Delicious,,1,,H,FR,NC,18,,,WA
+102,CA,4,8,4,128,AP, ,Red Delicious,,1,,H,FR,NC,12,,WA,WA
+103,CA,4,8,4,217,AP, ,Granny Smith,,2,275,T,FR,NC,10,,,FL
+104,CA,4,8,4,230,AP, ,Red Delicious,,1,,T,FR,NC,18,,,WA
+105,CA,4,8,4,252,AP, ,Red Delicious,,1,,T,FR,NC,18,,,WA
+106,CA,4,8,4,254,AP, ,Fuji,,1,,H,FR,NC,10,,WA,WA
+107,CA,4,8,4,277,AP, ,Golden Delicious,,1,,T,FR,NC,12,,,WA
+108,CA,4,8,4,368,AP, ,Red Delicious,,1,,T,FR,NC,20,,,WA
+109,CA,4,8,4,442,AP, ,Fuji,,1,,T,FR,NC,6,,,CA
+110,CA,4,8,4,450,AP, ,Red Delicious,,1,,H,FR,NC,10,,WA,WA
+111,CA,4,8,4,469,AP, ,Red Delicious,,1,,H,FR,NC,12,,,WA
+112,CA,4,8,4,472,AP, ,Red Delicious,,1,,H,FR,NC,9,,WA,
+113,CA,4,9,7,10,AP, ,Fuji,,1,,D,FR,NC,25,,CA,
+114,CA,4,9,7,17,AP, ,Red Delicious,,1,,T,FR,NC,22,,,WA
+115,CA,4,9,7,20,AP, ,Gala,,1,,T,FR,NC,16,,,WA
+116,CA,4,9,7,111,AP, ,Fuji,,2,275,H,FR,NC,10,,,
+117,CA,4,9,7,140,AP, ,Red Delicious,,1,,D,FR,NC,14,CA,CA,CA
+118,CA,4,9,7,252,AP, ,Red Delicious,,1,,T,FR,NC,19,,,WA
+119,CA,4,9,7,254,AP, ,Gala,,1,,H,FR,NC,16,,CA,
+120,CA,4,9,7,277,AP, ,Red Delicious,,1,,T,FR,NC,12,,,WA
+121,CA,4,9,7,278,AP, ,Red Delicious,,1,,T,FR,NC,16,,,WA
+122,CA,4,9,7,447,AP, ,Gala,,1,,H,FR,NC,20,,CA,
+123,CA,4,9,7,470,AP, ,Granny Smith,,1,,H,FR,NC,10,,WA,WA
+124,CA,4,9,7,472,AP, ,Granny Smith,,1,,H,FR,NC,9,,WA,
+125,CA,4,9,7,473,AP, ,Red Delicious,,1,,H,FR,NC,12,,WA,WA
+126,CA,4,9,7,561,AP, ,Gala,,1,,D,FR,NC,20,,,CA
+127,CA,4,10,5,225,AP, ,Granny Smith,,1,,T,FR,NC,11,,,WA
+128,CA,4,10,5,390,AP, ,Gala,,1,,H,FR,NC,17,,ID,
+129,CA,4,10,5,442,AP, ,Fuji,,1,,T,FR,NC,7,,,WA
+130,CA,4,10,6,1,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+131,CA,4,10,6,4,AP, ,Golden Delicious,,1,,D,FR,NC,16,,,WA
+132,CA,4,10,6,17,AP, ,McIntosh,,2,260,T,FR,NC,18,,,
+133,CA,4,10,6,49,AP, ,Fuji,,1,,T,FR,NC,11,,CA,
+134,CA,4,10,6,128,AP, ,Gala,,1,,L,FR,NC,11,,,WA
+135,CA,4,10,6,130,AP, ,Red Delicious,,1,,L,FR,NC,11,,,WA
+136,CA,4,10,6,136,AP, ,Red Delicious,,1,,H,FR,NC,11,,WA,WA
+137,CA,4,10,6,140,AP, ,Gravenstein,,1,,D,FR,NC,17,CA,CA,CA
+138,CA,4,10,6,274,AP, ,Fuji,,1,,D,FR,NC,12,CA,CA,
+139,CA,4,10,6,484,AP, ,Granny Smith,,1,,R,FR,NC,8,,CA,
+140,CA,4,10,6,540,AP, ,Fuji,,1,,D,FR,NC,9,,WA,WA
+141,CA,4,11,3,20,AP, ,Unknown,,2,660,T,FR,NC,15,,,
+142,CA,4,11,3,114,AP, ,Granny Smith,,1,,T,FR,NC,15,,,WA
+143,CA,4,11,3,121,AP, ,Red Delicious,,1,,T,FR,NC,15,,,WA
+144,CA,4,11,3,130,AP, ,Jonathan,,1,,H,FR,NC,21,,,WA
+145,CA,4,11,3,136,AP, ,Red Delicious,,1,,H,FR,NC,12,,WA,WA
+146,CA,4,11,3,140,AP, ,Fuji,,1,,D,FR,NC,17,,CA,CA
+147,CA,4,11,3,152,AP, ,Gala,,1,,D,FR,NC,13,,,WA
+148,CA,4,11,3,254,AP, ,Empire,,2,260,H,FR,NC,21,,,
+149,CA,4,11,3,274,AP, ,Gala,,2,260,D,FR,NC,15,,,
+150,CA,4,11,3,429,AP, ,Fuji,,1,,T,FR,NC,16,,,CA
+151,CA,4,11,3,439,AP, ,Gala,,1,,T,FR,NC,18,,,WA
+152,CA,4,11,3,447,AP, ,Granny Smith,,1,,H,FR,NC,18,,,CA
+153,CA,4,11,3,473,AP, ,Red Delicious,,1,,H,FR,NC,12,,,WA
+154,CA,4,11,3,561,AP, ,Honeycrisp,,1,,T,FR,NC,20,,,CA
+155,CA,4,12,8,17,AP, ,Red Delicious,,1,,D,FR,NC,9,,,WA
+156,CA,4,12,8,20,AP, ,D'anjou,,1,,T,FR,NC,11,,,WA
+157,CA,4,12,8,38,AP, ,Red Delicious,,1,,T,FR,NC,11,,ID,
+158,CA,4,12,8,49,AP, ,Golden Delicious,,1,,T,FR,NC,18,,,ID
+159,CA,4,12,8,136,AP, ,Red Delicious,,1,,H,FR,NC,15,,WA,
+160,CA,4,12,8,140,AP, ,Red Delicious,,1,,D,FR,NC,20,,,WA
+161,CA,4,12,8,150,AP, ,Pippin,,1,,D,FR,NC,15,,,OR
+162,CA,4,12,8,277,AP, ,Granny Smith,,1,,T,FR,NC,11,,,WA
+163,CA,4,12,8,307,AP, ,Red Delicious,,1,,D,FR,NC,14,,,WA
+164,CA,4,12,8,432,AP, ,Granny Smith,,1,,H,FR,NC,11,,,WA
+165,CA,4,12,8,447,AP, ,Red Delicious,,1,,H,FR,NC,10,,WA,WA
+166,CA,4,12,8,450,AP, ,Fuji,,1,,H,FR,NC,8,,WA,WA
+167,CA,4,12,8,473,AP, ,Red Delicious,,2,260,H,FR,NC,11,,,
+168,CA,4,12,8,539,AP, ,Red Delicious,,1,,H,FR,NC,12,WA,WA,WA
+169,CO,4,1,12,1,AP, ,Granny Smith,,1,,D,FR,NC,16,,,WA
+170,CO,4,1,12,13,AP, ,Red Delicious,,1,,T,FR,NC,14,,,WA
+171,CO,4,2,9,5,AP, ,Granny Smith,,1,,T,FR,NC,10,,,
+172,CO,4,2,9,9,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+173,CO,4,3,8,8,AP, ,Gala,,1,,T,FR,NC,13,,,TX
+174,CO,4,3,8,9,AP, ,Unknown,,1,,D,FR,NC,13,,,WA
+175,CO,4,4,12,8,AP, ,Red Delicious,,1,,T,FR,NC,11,,,TX
+176,CO,4,4,12,9,AP, ,Gala,,1,,D,FR,NC,13,,,WA
+177,CO,4,5,10,9,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+178,CO,4,5,10,13,AP, ,Fuji,,1,,T,FR,NC,12,,,WA
+179,CO,4,6,14,5,AP, ,Granny Smith,,2,275,T,FR,NC,13,,,
+180,CO,4,6,14,7,AP, ,Gala,,2,660,D,FR,NC,10,,,
+181,CO,4,7,12,12,AP, ,Granny Smith,,1,,T,FR,NC,11,,,
+182,CO,4,7,12,13,AP, ,Red Delicious,,1,,T,FR,NC,15,,,WA
+183,CO,4,8,9,4,AP, ,Red Delicious,,1,,T,FR,NC,12,,,WA
+184,CO,4,8,9,7,AP, ,Fuji,,2,660,D,FR,NC,12,,,
+185,CO,4,9,13,8,AP, ,Granny Smith,,1,,T,FR,NC,10,,,TX
+186,CO,4,9,13,9,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+187,CO,4,10,12,7,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+188,CO,4,10,12,8,AP, ,Red Delicious,,1,,T,FR,NC,14,,,TX
+189,CO,4,11,8,10,AP, ,Golden Delicious,,1,,T,FR,NC,14,,,CA
+190,CO,4,11,8,13,AP, ,Fuji,,1,,T,FR,NC,13,CO,,
+191,CO,4,12,13,1,AP, ,Red Delicious,,1,,D,FR,NC,14,WA,,
+192,CO,4,12,13,5,AP, ,Golden Delicious,,1,,T,FR,NC,13,,,WA
+193,FL,4,1,5,18,AP, ,Golden Delicious,,1,,D,FR,NC,17,,,MI
+194,FL,4,1,5,32,AP, ,McIntosh,,1,,D,FR,NC,19,,ME,MA
+195,FL,4,1,5,52,AP, ,Red Delicious,,1,,D,FR,NC,11,,,TX
+196,FL,4,1,5,56,AP, ,Gala,,1,,D,FR,NC,18,,,WA
+197,FL,4,1,5,62,AP, ,Red Delicious,,1,,L,FR,NC,21,,,WA
+198,FL,4,1,5,63,AP, ,Unknown,,1,,L,FR,NC,15,,NY,
+199,FL,4,1,5,64,AP, ,Red Delicious,,1,,R,FR,NC,26,,WA,
+200,FL,4,2,2,1,AP, ,Gala,,1,,D,FR,NC,12,,,WA
+201,FL,4,2,2,2,AP, ,Gala,,1,,D,FR,NC,11,,,WA
+202,FL,4,2,2,7,AP, ,Unknown,,1,,D,FR,NC,11,,,WA
+203,FL,4,2,2,20,AP, ,Fuji,,1,,D,FR,NC,12,,,WA
+204,FL,4,2,2,23,AP, ,Golden Delicious,,1,,D,FR,NC,13,,,WA
+205,FL,4,2,2,25,AP, ,Unknown,,1,,D,FR,NC,17,,,WA
+206,FL,4,2,2,58,AP, ,Red Delicious,,1,,D,FR,NC,13,,,WA
+207,FL,4,3,1,9,AP, ,Pink Lady,,1,,D,FR,NC,18,,,WA
+208,FL,4,3,1,23,AP, ,Gala,,2,275,D,FR,NC,14,,,
+209,FL,4,3,1,26,AP, ,Unknown,,1,,D,FR,NC,13,,WA,
+210,FL,4,3,1,29,AP, ,Granny Smith,,1,,D,FR,NC,9,,,WA
+211,FL,4,3,1,40,AP, ,Red Delicious,,1,,D,FR,NC,13,,,TX
+212,FL,4,3,1,41,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+213,FL,4,3,1,48,AP, ,Red Delicious,,1,,D,FR,NC,11,,,TX
+214,FL,4,4,5,1,AP, ,Braeburn,,1,,D,FR,NC,12,,WA,
+215,FL,4,4,5,18,AP, ,Red Delicious,,1,,L,FR,NC,12,,,WA
+216,FL,4,4,5,32,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+217,FL,4,4,5,39,AP, ,Golden Delicious,,1,,L,FR,NC,12,,,TX
+218,FL,4,4,5,44,AP, ,Unknown,,1,,D,FR,NC,12,,,WA
+219,FL,4,4,5,55,AP, ,Golden Delicious,,1,,D,FR,NC,12,,WA,
+220,FL,4,4,5,62,AP, ,Gala,,1,,L,FR,NC,16,,WA,
+221,FL,4,5,3,4,AP, ,Golden Delicious,,1,,D,FR,NC,13,,,WA
+222,FL,4,5,3,9,AP, ,Unknown,,1,,D,FR,NC,16,,,MI
+223,FL,4,5,3,20,AP, ,Fuji,,1,,L,FR,NC,13,,,WA
+224,FL,4,5,3,25,AP, ,Rome,,1,,D,FR,NC,11,,,NY
+225,FL,4,5,3,38,AP, ,Red Delicious,,1,,D,FR,NC,7,,,WA
+226,FL,4,5,3,45,AP, ,Unknown,,1,,D,FR,NC,11,,,WA
+227,FL,4,5,3,58,AP, ,Red Delicious,,1,,D,FR,NC,15,,,WA
+228,FL,4,6,7,1,AP, ,Gala,,2,275,D,FR,NC,16,,,
+229,FL,4,6,7,18,AP, ,McIntosh,,1,,L,FR,NC,18,WV,,
+230,FL,4,6,7,32,AP, ,Granny Smith,,1,,D,FR,NC,24,WA,,
+231,FL,4,6,7,39,AP, ,Golden Delicious,,1,,L,FR,NC,9,,,TX
+232,FL,4,6,7,44,AP, ,Unknown,,1,,D,FR,NC,8,,,WA
+233,FL,4,6,7,53,AP, ,Red Delicious,,1,,L,FR,NC,12,WA,,
+234,FL,4,6,7,64,AP, ,Granny Smith,,1,,D,FR,NC,13,,,WA
+235,FL,4,7,6,1,AP, ,Gala,,2,660,D,FR,NC,12,,,
+236,FL,4,7,6,2,AP, ,Golden Delicious,,1,,D,FR,NC,13,,,WA
+237,FL,4,7,6,19,AP, ,Gala,,1,,L,FR,NC,14,,,WA
+238,FL,4,7,6,23,AP, ,Gala,,2,275,D,FR,NC,14,,,
+239,FL,4,7,6,29,AP, ,Gala,,2,275,D,FR,NC,13,,,
+240,FL,4,7,6,45,AP, ,Gala,,2,UNK,D,FR,NC,12,,,
+241,FL,4,7,6,52,AP, ,Unknown,,1,,D,FR,NC,13,,,TX
+242,FL,4,8,2,7,AP, ,Red Delicious,,1,,D,FR,NC,13,,,WA
+243,FL,4,8,2,38,AP, ,Granny Smith,,2,UNK,D,FR,NC,12,,,WA
+244,FL,4,8,2,58,AP, ,Red Delicious,,1,,D,FR,NC,9,,,WA
+245,FL,4,8,2,59,AP, ,Red Delicious,,1,,D,FR,NC,10,,,MD
+246,FL,4,8,2,61,AP, ,Red Delicious,,1,,L,FR,NC,15,,,WA
+247,FL,4,8,2,62,AP, ,Granny Smith,,1,,L,FR,NC,11,,WA,
+248,FL,4,8,2,63,AP, ,Red Delicious,,1,,L,FR,NC,10,,,WA
+249,FL,4,9,8,2,AP, ,Gala,,1,,D,FR,NC,14,,,WA
+250,FL,4,9,8,9,AP, ,Red Delicious,,1,,D,FR,NC,20,,,WA
+251,FL,4,9,8,23,AP, ,Ginger Gold,,1,,D,FR,NC,13,,,WA
+252,FL,4,9,8,40,AP, ,Red Delicious,,1,,D,FR,NC,14,,,TX
+253,FL,4,9,8,44,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+254,FL,4,9,8,45,AP, ,Golden Delicious,,1,,D,FR,NC,11,,WA,
+255,FL,4,9,8,56,AP, ,Unknown,,1,,D,FR,NC,14,,,WA
+256,FL,4,10,4,2,AP, ,Fuji,,2,660,D,FR,NC,12,,,
+257,FL,4,10,4,7,AP, ,Red Delicious,,1,,D,FR,NC,10,,WA,
+258,FL,4,10,4,20,AP, ,Red Delicious,,1,,L,FR,NC,12,,,WA
+259,FL,4,10,4,26,AP, ,Golden Delicious,,1,,D,FR,NC,10,,,WA
+260,FL,4,10,4,29,AP, ,Granny Smith,,1,,D,FR,NC,12,,,CA
+261,FL,4,10,4,40,AP, ,Granny Smith,,1,,L,FR,NC,11,,,TX
+262,FL,4,10,4,49,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+263,FL,4,11,1,4,AP, ,Unknown,,1,,D,FR,NC,18,NC,NC,
+264,FL,4,11,1,9,AP, ,Jonathan,,1,,D,FR,NC,17,,,MI
+265,FL,4,11,1,25,AP, ,Unknown,,1,,D,FR,NC,9,,WA,
+266,FL,4,11,1,26,AP, ,McIntosh,,1,,D,FR,NC,13,,,PA
+267,FL,4,11,1,46,AP, ,Red Delicious,,1,,L,FR,NC,11,,,WA
+268,FL,4,11,1,52,AP, ,Red Delicious,,1,,D,FR,NC,9,,,TX
+269,FL,4,11,1,61,AP, ,Red Delicious,,1,,L,FR,NC,16,,,
+270,FL,4,12,6,56,AP, ,Red Delicious,,1,,D,FR,NC,13,,,NY
+271,FL,4,12,6,57,AP, ,Red Delicious,,1,,L,FR,NC,17,,,
+272,FL,4,12,6,58,AP, ,Red Delicious,,1,,D,FR,NC,8,,,WA
+273,FL,4,12,6,59,AP, ,Red Delicious,,1,,D,FR,NC,11,,,MD
+274,FL,4,12,6,60,AP, ,Red Delicious,,1,,D,FR,NC,14,,NY,NY
+275,FL,4,12,6,63,AP, ,Red Delicious,,1,,L,FR,NC,8,,,WA
+276,FL,4,12,6,64,AP, ,Jonagold,,1,,D,FR,NC,11,,,WA
+277,MD,4,1,7,1,AP, ,Golden Delicious,,1,,D,FR,NC,14,,,PA
+278,MD,4,1,7,5,AP, ,Red Delicious,,1,,D,FR,NC,10,,,TX
+279,MD,4,1,7,36,AP, ,Fuji,,1,,T,FR,NC,10,,VA,
+280,MD,4,1,7,39,AP, ,Unknown,,1,,D,FR,NC,21,,VT,
+281,MD,4,2,4,1,AP, ,Unknown,,1,,D,FR,NC,12,,MD,
+282,MD,4,2,4,5,AP, ,Unknown,,1,,D,FR,NC,14,,,TX
+283,MD,4,2,4,8,AP, ,Fuji,,1,,D,FR,NC,14,,WA,
+284,MD,4,2,4,39,AP, ,Unknown,,1,,D,FR,NC,14,,,WA
+285,MD,4,3,3,1,AP, ,Unknown,,1,,D,FR,NC,10,,WA,
+286,MD,4,3,3,5,AP, ,Golden Delicious,,1,,D,FR,NC,9,,,TX
+287,MD,4,3,3,8,AP, ,Golden Delicious,,1,,D,FR,NC,10,WA,,
+288,MD,4,3,3,39,AP, ,Unknown,,1,,D,FR,NC,12,,WA,
+289,MD,4,4,12,1,AP, ,Unknown,,1,,D,FR,NC,9,,,WA
+290,MD,4,4,12,5,AP, ,Red Delicious,,1,,D,FR,NC,12,,,TX
+291,MD,4,4,12,8,AP, ,Granny Smith,,1,,D,FR,NC,11,,,WA
+292,MD,4,4,12,39,AP, ,Acey Mac,,1,,D,FR,NC,12,,NY,
+293,MD,4,5,24,1,AP, ,Gala,,2,275,D,FR,NC,14,,,
+294,MD,4,5,24,5,AP, ,Golden Delicious,,1,,D,FR,NC,9,,,WA
+295,MD,4,5,24,8,AP, ,Golden Delicious,,1,,D,FR,NC,21,,,WA
+296,MD,4,5,24,39,AP, ,Empire,,1,,D,FR,NC,12,,,NY
+297,MD,4,6,28,1,AP, ,Golden Delicious,,1,,D,FR,NC,11,,,WA
+298,MD,4,6,28,5,AP, ,Unknown,,1,,D,FR,NC,12,,,TX
+299,MD,4,6,28,21,AP, ,Red Delicious,,1,,T,FR,NC,11,,,WA
+300,MD,4,6,28,39,AP, ,Unknown,,2,660,D,FR,NC,12,,,
+301,MD,4,7,6,1,AP, ,Red Delicious,,1,,D,FR,NC,11,WA,,
+302,MD,4,7,6,5,AP, ,Red Delicious,,1,,D,FR,NC,12,,,TX
+303,MD,4,7,6,8,AP, ,Acey Mac,,2,260,D,FR,NC,15,,,NY
+304,MD,4,7,6,21,AP, ,Fuji,,1,,T,FR,NC,9,,,WA
+305,MD,4,8,4,1,AP, ,Granny Smith,,1,,D,FR,NC,10,,,WA
+306,MD,4,8,4,5,AP, ,Granny Smith,,1,,D,FR,NC,9,,,TX
+307,MD,4,8,4,8,AP, ,Red Delicious,,1,,D,FR,NC,10,WA,WA,
+308,MD,4,8,4,39,AP, ,Red Delicious,,1,,D,FR,NC,20,,,WA
+309,MD,4,9,7,1,AP, ,Red Delicious,,1,,D,FR,NC,10,,,PA
+310,MD,4,9,7,5,AP, ,Unknown,,1,,D,FR,NC,11,,,TX
+311,MD,4,9,7,21,AP, ,Golden Delicious,,1,,T,FR,NC,9,,WA,
+312,MD,4,9,7,39,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+313,MD,4,10,6,1,AP, ,Gala,,1,,B,FR,NC,13,,,WA
+314,MD,4,10,6,5,AP, ,Golden Delicious,,1,,D,FR,NC,15,,,TX
+315,MD,4,10,6,8,AP, ,Red Delicious,,1,,D,FR,NC,15,,PA,
+316,MD,4,10,6,39,AP, ,Golden Delicious,,1,,D,FR,NC,11,,,WA
+317,MD,4,11,3,1,AP, ,Golden Delicious,,1,,D,FR,NC,10,,,WA
+318,MD,4,11,3,8,AP, ,Gala,,1,,D,FR,NC,11,,WA,
+319,MD,4,11,3,21,AP, ,Red Delicious,,1,,T,FR,NC,8,,,
+320,MD,4,11,3,39,AP, ,Golden Delicious,,1,,D,FR,NC,12,WA,,
+321,MD,4,12,8,1,AP, ,Red Delicious,,1,,D,FR,NC,9,,PA,
+322,MD,4,12,8,5,AP, ,Rome,,1,,D,FR,NC,11,,,TX
+323,MD,4,12,8,8,AP, ,Golden Delicious,,1,,D,FR,NC,11,,,WA
+324,MD,4,12,8,36,AP, ,Nittany,,1,,T,FR,NC,11,,PA,
+325,MI,4,1,5,21,AP, ,Unknown,,1,,D,FR,NC,9,,,WA
+326,MI,4,1,5,35,AP, ,Granny Smith,,1,,D,FR,PP,9,,,WA
+327,MI,4,1,5,38,AP, ,Pink Lady,,1,,D,FR,NC,9,,,WA
+328,MI,4,1,5,42,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+329,MI,4,1,5,56,AP, ,Unknown,,1,,D,FR,NC,10,,WA,
+330,MI,4,1,5,87,AP, ,Unknown,,1,,D,FR,NC,10,,,
+331,MI,4,2,2,5,AP, ,Unknown,,1,,D,FR,NC,11,,,WA
+332,MI,4,2,2,31,AP, ,Red Delicious,,1,,D,FR,NC,17,,,MI
+333,MI,4,2,2,39,AP, ,Fuji,,1,,D,FR,NC,9,WA,,
+334,MI,4,2,2,43,AP, ,Granny Smith,,1,,D,FR,NC,9,,,WA
+335,MI,4,2,2,48,AP, ,Red Delicious,,1,,D,FR,NC,15,WA,,WA
+336,MI,4,2,2,56,AP, ,Gala,,1,,D,FR,NC,7,WA,,
+337,MI,4,3,1,8,AP, ,Red Delicious,,1,,D,FR,NC,20,,,MI
+338,MI,4,3,1,39,AP, ,Red Delicious,,1,,T,FR,NC,8,WA,,
+339,MI,4,3,1,42,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+340,MI,4,3,1,47,AP, ,Golden Delicious,,3,,D,FR,NC,13,,,
+341,MI,4,3,1,53,AP, ,Granny Smith,,1,,D,FR,NC,11,,,TX
+342,MI,4,3,1,56,AP, ,Unknown,,1,,D,FR,NC,12,,,WA
+343,MI,4,4,5,8,AP, ,Red Delicious,,1,,D,FR,NC,16,,,MI
+344,MI,4,4,5,21,AP, ,Unknown,,1,,D,FR,NC,9,,,WA
+345,MI,4,4,5,27,AP, ,Red Delicious,,1,,D,FR,NC,12,,,
+346,MI,4,4,5,42,AP, ,Red Delicious,,1,,D,FR,NC,9,,,WA
+347,MI,4,4,5,44,AP, ,Golden Delicious,,1,,D,FR,NC,25,,,MI
+348,MI,4,4,5,56,AP, ,Gala,,2,275,D,FR,NC,9,,,
+349,MI,4,5,3,4,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+350,MI,4,5,3,27,AP, ,Granny Smith,,1,,D,FR,NC,15,,,CA
+351,MI,4,5,3,38,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+352,MI,4,5,3,42,AP, ,Red Delicious,,1,,D,FR,NC,9,,,WA
+353,MI,4,5,3,56,AP, ,Unknown,,1,,D,FR,NC,9,,,WA
+354,MI,4,5,3,84,AP, ,Golden Delicious,,1,,D,FR,NC,13,,,MD
+355,MI,4,6,7,5,AP, ,Red Delicious,,1,,D,FR,NC,10,,,MI
+356,MI,4,6,7,18,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+357,MI,4,6,7,42,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+358,MI,4,6,7,47,AP, ,Unknown,,1,,D,FR,NC,9,,,CA
+359,MI,4,6,7,48,AP, ,Unknown,,1,,D,FR,NC,10,WA,,
+360,MI,4,6,7,84,AP, ,Golden Delicious,,1,,D,FR,NC,9,,WA,MN
+361,MI,4,7,6,5,AP, ,Unknown,,1,,D,FR,NC,14,,,MI
+362,MI,4,7,6,8,AP, ,Unknown,,2,260,D,FR,NC,16,,,
+363,MI,4,7,6,28,AP, ,Unknown,,3,,D,FR,NC,11,,,
+364,MI,4,7,6,42,AP, ,Braeburn,,2,275,D,FR,NC,11,,,
+365,MI,4,7,6,48,AP, ,Gala,,2,UNK,D,FR,NC,13,,,WA
+366,MI,4,7,6,50,AP, ,Unknown,,1,,D,FR,NC,13,,,WA
+367,MI,4,8,2,8,AP, ,Unknown,,1,,D,FR,NC,14,,,
+368,MI,4,8,2,27,AP, ,Red Delicious,,3,,D,FR,NC,13,,,
+369,MI,4,8,2,40,AP, ,Red Delicious,,1,,T,FR,NC,12,,WA,
+370,MI,4,8,2,42,AP, ,Red Delicious,,1,,D,FR,NC,8,,,WA
+371,MI,4,8,2,46,AP, ,Red Delicious,,1,,T,FR,NC,10,WA,,
+372,MI,4,8,2,56,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+373,MI,4,9,7,18,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+374,MI,4,9,7,38,AP, ,Unknown,,1,,T,FR,NC,11,,,WA
+375,MI,4,9,7,39,AP, ,Unknown,,1,,T,FR,NC,14,,,CA
+376,MI,4,9,7,40,AP, ,Granny Smith,,1,,T,FR,NC,11,,CA,
+377,MI,4,9,7,42,AP, ,Braeburn,,2,275,D,FR,NC,11,,,
+378,MI,4,9,7,56,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+379,MI,4,10,4,8,AP, ,Red Delicious,,1,,D,FR,NC,12,,,MI
+380,MI,4,10,4,38,AP, ,Red Delicious,,1,,T,FR,NC,11,,,WA
+381,MI,4,10,4,42,AP, ,Granny Smith,,1,,D,FR,NC,13,,CA,
+382,MI,4,10,4,47,AP, ,Red Delicious,,1,,D,FR,NC,12,,,CA
+383,MI,4,10,4,56,AP, ,Red Delicious,,1,,D,FR,NC,9,,WA,
+384,MI,4,10,4,84,AP, ,Granny Smith,,1,,D,FR,NC,11,,,MD
+385,MI,4,11,1,21,AP, ,Red Delicious,,1,,D,FR,NC,9,,,WA
+386,MI,4,11,1,35,AP, ,Pink Lady,,1,,T,FR,NC,10,WA,,
+387,MI,4,11,1,42,AP, ,Red Delicious,,1,,D,FR,NC,11,,WA,WA
+388,MI,4,11,1,50,AP, ,Red Delicious,,1,,D,FR,NC,13,,,MI
+389,MI,4,11,1,84,AP, ,Ginger Gold,,1,,D,FR,NC,11,,,MD
+390,MI,4,11,1,87,AP, ,McIntosh,,1,,D,FR,NC,14,,,
+391,MI,4,12,6,4,AP, ,Red Delicious,,1,,D,FR,NC,15,,,MI
+392,MI,4,12,6,21,AP, ,Red Delicious,,1,,D,FR,NC,9,,,WA
+393,MI,4,12,6,35,AP, ,Granny Smith,,1,,T,FR,NC,9,,WA,
+394,MI,4,12,6,42,AP, ,Unknown,,1,,D,FR,NC,11,,,WA
+395,MI,4,12,6,45,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+396,MI,4,12,6,56,AP, ,Unknown,,1,,D,FR,NC,8,,,WA
+397,NY,4,1,6,113,AP, ,Granny Smith,,1,,T,FR,NC,12,,,WA
+398,NY,4,1,6,127,AP, ,Golden Delicious,,1,,D,FR,NC,11,,,WA
+399,NY,4,1,6,138,AP, ,Golden Delicious,,1,,D,FR,NC,15,,,MN
+400,NY,4,1,6,152,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+401,NY,4,1,6,226,AP, ,McIntosh,,1,,D,FR,NC,14,,,NY
+402,NY,4,1,6,242,AP, ,Red Delicious,,1,,T,FR,NC,11,,,WA
+403,NY,4,1,6,266,AP, ,Macoun,,1,,D,FR,NC,15,NY,NY,
+404,NY,4,1,6,272,AP, ,Red Delicious,,1,,D,FR,NC,15,,,WA
+405,NY,4,1,6,274,AP, ,Red Delicious,,1,,T,FR,NC,12,NY,,
+406,NY,4,2,3,9,AP, ,McIntosh,,1,,D,FR,NC,14,NY,,NY
+407,NY,4,2,3,17,AP, ,Braeburn,,1,,D,FR,NC,11,,,MN
+408,NY,4,2,3,21,AP, ,Granny Smith,,1,,T,FR,NC,13,,,WA
+409,NY,4,2,3,30,AP, ,Red Delicious,,1,,D,FR,NC,17,WA,,
+410,NY,4,2,3,61,AP, ,Red Delicious,,1,,T,FR,NC,13,,,WA
+411,NY,4,2,3,152,AP, ,Red Delicious,,1,,T,FR,NC,10,,,WA
+412,NY,4,2,3,219,AP, ,Gala,,1,,D,FR,NC,14,,,WA
+413,NY,4,2,3,258,AP, ,McIntosh,,1,,D,FR,NC,14,NY,NY,
+414,NY,4,2,3,259,AP, ,Red Delicious,,1,,D,FR,NC,15,,,TX
+415,NY,4,3,2,12,AP, ,Granny Smith,,1,,D,FR,NC,14,,,TX
+416,NY,4,3,2,53,AP, ,McIntosh,,1,,T,FR,NC,15,NY,,
+417,NY,4,3,2,113,AP, ,Unknown,,1,,D,FR,NC,9,WA,,
+418,NY,4,3,2,142,AP, ,Granny Smith,,1,,T,FR,NC,15,WA,,
+419,NY,4,3,2,152,AP, ,Gala,,1,,D,FR,NC,15,,,WA
+420,NY,4,3,2,153,AP, ,Red Delicious,,1,,D,FR,NC,13,WA,,
+421,NY,4,3,2,242,AP, ,Red Delicious,,1,,T,FR,NC,10,,,WA
+422,NY,4,3,2,262,AP, ,McIntosh,,1,,D,FR,NC,18,NY,,
+423,NY,4,3,2,270,AP, ,Granny Smith,,1,,D,FR,NC,14,,,WA
+424,NY,4,4,6,17,AP, ,McIntosh,,1,,D,FR,NC,20,,,NY
+425,NY,4,4,6,31,AP, ,Cortland,,1,,T,FR,NC,10,,,NY
+426,NY,4,4,6,54,AP, ,Red Delicious,,1,,T,FR,NC,18,,,WA
+427,NY,4,4,6,79,AP, ,Pink Lady,,1,,T,FR,NC,13,WA,,
+428,NY,4,4,6,113,AP, ,Golden Delicious,,1,,T,FR,NC,10,,,WA
+429,NY,4,4,6,152,AP, ,Gala,,2,UNK,D,FR,NC,15,,,
+430,NY,4,4,6,166,AP, ,Empire,,1,,T,FR,NC,18,NY,,
+431,NY,4,4,6,242,AP, ,Gala,,2,UNK,T,FR,NC,11,,,OH
+432,NY,4,4,6,276,AP, ,McIntosh,,1,,T,FR,NC,21,NY,,
+433,NY,4,5,4,15,AP, ,Granny Smith,,1,,D,FR,NC,20,,,WA
+434,NY,4,5,4,68,AP, ,Fuji,,1,,T,FR,NC,11,,,WA
+435,NY,4,5,4,89,AP, ,Red Delicious,,1,,T,FR,NC,14,,,WA
+436,NY,4,5,4,113,AP, ,Gala,,2,UNK,T,FR,NC,12,,,OH
+437,NY,4,5,4,120,AP, ,Gala,,2,275,D,FR,NC,13,,,
+438,NY,4,5,4,186,AP, ,Rome,,1,,D,FR,NC,16,NY,,
+439,NY,4,5,4,226,AP, ,Golden Delicious,,1,,D,FR,NC,12,,,WA
+440,NY,4,5,4,242,AP, ,Red Delicious,,1,,T,FR,NC,9,,,WA
+441,NY,4,5,4,254,AP, ,McIntosh,,1,,D,FR,NC,13,NY,,
+442,NY,4,6,8,68,AP, ,Gala,,2,660,T,FR,NC,10,,,
+443,NY,4,6,8,76,AP, ,Red Delicious,,1,,T,FR,NC,13,,,VA
+444,NY,4,6,8,79,AP, ,Granny Smith,,1,,T,FR,NC,10,WA,,
+445,NY,4,6,8,113,AP, ,Red Delicious,,1,,T,FR,NC,12,,,WA
+446,NY,4,6,8,135,AP, ,Unknown,,1,,T,FR,NC,12,,,WA
+447,NY,4,6,8,145,AP, ,Red Delicious,,1,,S,FR,NC,13,,WA,
+448,NY,4,6,8,261,AP, ,Red Delicious,,1,,D,FR,NC,10,,,NY
+449,NY,4,6,8,267,AP, ,Empire,,1,,D,FR,NC,11,NY,,
+450,NY,4,6,8,272,AP, ,Red Delicious,,1,,S,FR,NC,13,,,WA
+451,NY,4,7,6,31,AP, ,Spartamac,,1,,D,FR,NC,16,NY,,
+452,NY,4,7,6,54,AP, ,Red Delicious,,1,,T,FR,NC,15,,,WA
+453,NY,4,7,6,55,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+454,NY,4,7,6,68,AP, ,Unknown,,1,,D,FR,NC,11,,,WA
+455,NY,4,7,6,113,AP, ,Golden Delicious,,1,,D,FR,NC,11,WA,,
+456,NY,4,7,6,127,AP, ,Golden Delicious,,1,,D,FR,NC,12,WA,,
+457,NY,4,7,6,152,AP, ,Gala,,2,660,T,FR,NC,12,,,
+458,NY,4,7,6,242,AP, ,Unknown,,1,,D,FR,NC,10,,,WA
+459,NY,4,7,6,250,AP, ,Gala,,2,660,D,FR,NC,14,,,
+460,NY,4,8,3,15,AP, ,Crispan,,1,,D,FR,NC,16,NY,,
+461,NY,4,8,3,68,AP, ,Red Delicious,,1,,T,FR,NC,11,,,WA
+462,NY,4,8,3,79,AP, ,Golden Delicious,,1,,T,FR,NC,14,,,WA
+463,NY,4,8,3,113,AP, ,Red Delicious,,1,,T,FR,NC,10,WA,,
+464,NY,4,8,3,142,AP, ,Granny Smith,,2,660,T,FR,NC,15,,,
+465,NY,4,8,3,242,AP, ,Red Delicious,,1,,T,FR,NC,10,,,WA
+466,NY,4,8,3,258,AP, ,Unknown,,1,,D,FR,NC,11,,,WA
+467,NY,4,8,3,265,AP, ,Empire,,1,,D,FR,NC,17,NY,,
+468,NY,4,8,3,277,AP, ,Granny Smith,,1,,D,FR,NC,13,,,WA
+469,NY,4,9,8,9,AP, ,McIntosh,,1,,D,FR,NC,16,NY,,NY
+470,NY,4,9,8,68,AP, ,Granny Smith,,1,,D,FR,NC,14,CA,,
+471,NY,4,9,8,79,AP, ,Rome,,1,,T,FR,NC,8,,,NY
+472,NY,4,9,8,113,AP, ,Unknown,,1,,T,FR,NC,9,OR,,
+473,NY,4,9,8,138,AP, ,Empire,,1,,D,FR,NC,18,NY,,
+474,NY,4,9,8,242,AP, ,Unknown,,1,,T,FR,NC,11,,,WA
+475,NY,4,9,8,262,AP, ,Paula Red,,1,,D,FR,NC,13,NY,,
+476,NY,4,9,8,268,AP, ,Paula Red,,1,,D,FR,NC,20,NY,,
+477,NY,4,9,8,272,AP, ,Braeburn,,2,660,D,FR,NC,9,,,
+478,NY,4,10,5,6,AP, ,Gala,,1,,D,FR,NC,20,WA,,
+479,NY,4,10,5,17,AP, ,Unknown,,1,,D,FR,NC,17,,,MN
+480,NY,4,10,5,30,AP, ,Red Delicious,,1,,D,FR,NC,11,WA,,
+481,NY,4,10,5,55,AP, ,Unknown,,1,,D,FR,NC,13,,,WA
+482,NY,4,10,5,68,AP, ,Gala,,1,,T,FR,NC,10,,,WA
+483,NY,4,10,5,71,AP, ,Granny Smith,,1,,T,FR,NC,11,,,WA
+484,NY,4,10,5,113,AP, ,Red Delicious,,1,,T,FR,NC,10,,OR,
+485,NY,4,10,5,120,AP, ,Fuji,,2,660,H,FR,NC,20,,,
+486,NY,4,10,5,242,AP, ,Red Delicious,,1,,T,FR,NC,9,WA,,
+487,NY,4,11,2,36,AP, ,Jonamac,,1,,D,FR,NC,16,NY,,
+488,NY,4,11,2,68,AP, ,Fuji,,1,,T,FR,NC,9,,,WA
+489,NY,4,11,2,71,AP, ,Red Delicious,,1,,T,FR,NC,10,,,WA
+490,NY,4,11,2,79,AP, ,Granny Smith,,1,,T,FR,NC,10,,CA,
+491,NY,4,11,2,113,AP, ,McIntosh,,1,,T,FR,NC,15,,,NY
+492,NY,4,11,2,128,AP, ,Red Delicious,,1,,D,FR,NC,13,,WA,
+493,NY,4,11,2,156,AP, ,Red Delicious,,1,,D,FR,NC,13,,,WA
+494,NY,4,11,2,262,AP, ,Granny Smith,,1,,D,FR,NC,16,WA,,
+495,NY,4,11,2,272,AP, ,Braeburn,,1,,D,FR,NC,13,,,WA
+496,NY,4,12,7,55,AP, ,McIntosh,,1,,D,FR,NC,19,NY,,
+497,NY,4,12,7,79,AP, ,McIntosh,,1,,T,FR,NC,14,NY,,
+498,NY,4,12,7,113,AP, ,Red Delicious,,1,,T,FR,NC,11,WA,,
+499,NY,4,12,7,145,AP, ,Red Delicious,,1,,D,FR,NC,13,,,WA
+500,NY,4,12,7,156,AP, ,Golden Delicious,,1,,D,FR,NC,14,,,WA
+501,NY,4,12,7,259,AP, ,Fuji,,1,,D,FR,NC,16,NY,,
+502,NY,4,12,7,265,AP, ,Red Delicious,,1,,D,FR,NC,15,,,NY
+503,NY,4,12,7,268,AP, ,Empire,,1,,T,FR,NC,22,NY,,
+504,NY,4,12,7,273,AP, ,Red Delicious,,1,,T,FR,NC,11,WA,,
+505,OH,4,1,12,105,AP, ,Unknown,,1,,D,FR,NC,12,,,WA
+506,OH,4,1,12,107,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+507,OH,4,1,12,206,AP, ,Golden Delicious,,1,,D,FR,NC,13,,,WA
+508,OH,4,1,12,210,AP, ,Granny Smith,,1,,D,FR,NC,18,,,WA
+509,OH,4,1,12,300,AP, ,Red Delicious,,1,,D,FR,NC,13,,,WA
+510,OH,4,1,12,412,AP, ,Golden Delicious,,1,,D,FR,NC,17,,,WA
+511,OH,4,2,9,100,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+512,OH,4,2,9,104,AP, ,Red Delicious,,1,,D,FR,NC,24,,,WA
+513,OH,4,2,9,118,AP, ,Red Delicious,,1,,D,FR,NC,18,,MI,MI
+514,OH,4,2,9,205,AP, ,Red Delicious,,1,,D,FR,NC,9,,WA,
+515,OH,4,2,9,307,AP, ,Gala,,1,,D,FR,NC,8,,,WA
+516,OH,4,2,9,407,AP, ,Rome,,1,,D,FR,NC,12,OH,OH,OH
+517,OH,4,3,8,107,AP, ,Unknown,,1,,D,FR,NC,14,,,WA
+518,OH,4,3,8,115,AP, ,Unknown,,1,,D,FR,NC,13,,WA,WA
+519,OH,4,3,8,206,AP, ,Golden Delicious,,1,,D,FR,NC,13,,,WA
+520,OH,4,3,8,229,AP, ,Unknown,,1,,D,FR,NC,13,,,WA
+521,OH,4,3,8,401,AP, ,Golden Delicious,,1,,D,FR,NC,15,WA,,
+522,OH,4,3,8,412,AP, ,Granny Smith,,1,,D,FR,NC,13,,,WA
+523,OH,4,4,12,107,AP, ,Red Delicious,,1,,D,FR,NC,9,,,WA
+524,OH,4,4,12,115,AP, ,Red Delicious,,1,,D,FR,NC,23,,,WA
+525,OH,4,4,12,206,AP, ,Granny Smith,,1,,D,FR,NC,10,,,WA
+526,OH,4,4,12,300,AP, ,Red Delicious,,1,,D,FR,NC,15,,,WA
+527,OH,4,4,12,402,AP, ,Red Delicious,,1,,D,FR,NC,17,,,WA
+528,OH,4,4,12,412,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+529,OH,4,5,10,105,AP, ,Red Delicious,,1,,D,FR,NC,17,,,WA
+530,OH,4,5,10,107,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+531,OH,4,5,10,118,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+532,OH,4,5,10,205,AP, ,Granny Smith,,1,,D,FR,NC,11,,,WA
+533,OH,4,5,10,208,AP, ,Granny Smith,,1,,D,FR,NC,13,,,WA
+534,OH,4,5,10,405,AP, ,Unknown,,1,,D,FR,NC,13,,,WA
+535,OH,4,6,14,103,AP, ,Unknown,,1,,D,FR,NC,16,,,WA
+536,OH,4,6,14,115,AP, ,Red Delicious,,1,,D,FR,NC,20,,WA,WA
+537,OH,4,6,14,203,AP, ,Golden Delicious,,1,,D,FR,NC,11,,,WA
+538,OH,4,6,14,229,AP, ,Unknown,,1,,D,FR,NC,14,,,WA
+539,OH,4,6,14,400,AP, ,Unknown,,1,,D,FR,NC,15,,,WA
+540,OH,4,6,14,410,AP, ,Unknown,,1,,D,FR,NC,15,,,WA
+541,OH,4,7,12,100,AP, ,Unknown,,2,660,D,FR,NC,12,,,
+542,OH,4,7,12,107,AP, ,Unknown,,1,,D,FR,NC,22,,,WA
+543,OH,4,7,12,202,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+544,OH,4,7,12,229,AP, ,Unknown,,1,,D,FR,NC,14,,WA,
+545,OH,4,7,12,400,AP, ,Granny Smith,,2,275,D,FR,NC,14,,,
+546,OH,4,7,12,410,AP, ,Unknown,,1,,D,FR,NC,14,,,WA
+547,OH,4,8,9,100,AP, ,Unknown,,2,660,D,FR,NC,10,,,
+548,OH,4,8,9,115,AP, ,Unknown,,1,,D,FR,NC,13,,WA,WA
+549,OH,4,8,9,205,AP, ,Red Delicious,,1,,D,FR,NC,9,,,WA
+550,OH,4,8,9,206,AP, ,Granny Smith,,1,,D,FR,NC,10,,,WA
+551,OH,4,8,9,402,AP, ,Unknown,,1,,D,FR,NC,12,,,WA
+552,OH,4,8,9,412,AP, ,Unknown,,1,,D,FR,NC,11,,,WA
+553,OH,4,9,13,105,AP, ,Unknown,,1,,D,FR,NC,16,WA,WA,WA
+554,OH,4,9,13,107,AP, ,Golden Delicious,,1,,D,FR,NC,15,,,WA
+555,OH,4,9,13,118,AP, ,Ginger Gold,,1,,D,FR,NC,14,,MI,
+556,OH,4,9,13,208,AP, ,Red Delicious,,1,,D,FR,NC,15,,,WA
+557,OH,4,9,13,212,AP, ,Red Delicious,,1,,D,FR,NC,9,,,WA
+558,OH,4,9,13,404,AP, ,Paula Red,,1,,D,FR,NC,22,OH,,
+559,OH,4,10,12,107,AP, ,Unknown,,1,,D,FR,NC,11,,PA,PA
+560,OH,4,10,12,112,AP, ,Red Delicious,,1,,D,FR,NC,15,WA,WA,WA
+561,OH,4,10,12,205,AP, ,Golden Delicious,,1,,D,FR,NC,13,,,WA
+562,OH,4,10,12,206,AP, ,Jonagold,,1,,D,FR,NC,9,,,WA
+563,OH,4,10,12,404,AP, ,Golden Delicious,,1,,D,FR,NC,12,,WA,
+564,OH,4,10,12,412,AP, ,Golden Delicious,,1,,D,FR,NC,21,,,MI
+565,OH,4,11,8,100,AP, ,Red Delicious,,1,,D,FR,NC,7,,,WA
+566,OH,4,11,8,107,AP, ,Golden Delicious,,1,,D,FR,NC,17,,PA,
+567,OH,4,11,8,206,AP, ,Granny Smith,,1,,D,FR,NC,14,,,CA
+568,OH,4,11,8,210,AP, ,Empire,,1,,D,FR,NC,18,,,
+569,OH,4,11,8,307,AP, ,Golden Delicious,,1,,D,FR,NC,16,,,
+570,OH,4,11,8,407,AP, ,Unknown,,1,,D,FR,NC,14,,,WA
+571,OH,4,12,13,107,AP, ,Unknown,,1,,D,FR,NC,14,,,WA
+572,OH,4,12,13,112,AP, ,Red Delicious,,1,,D,FR,NC,11,,WA,
+573,OH,4,12,13,203,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+574,OH,4,12,13,401,AP, ,Red Delicious,,1,,D,FR,NC,14,,,MI
+575,OH,4,12,13,412,AP, ,Red Delicious,,1,,D,FR,NC,17,,,WA
+576,OH,4,12,15,229,AP, ,Unknown,,1,,D,FR,NC,14,,,WA
+577,TX,4,1,12,30,AP, ,Unknown,,1,,D,FR,NC,12,CA,,
+578,TX,4,1,12,104,AP, ,Unknown,,1,,T,FR,NC,19,,,WA
+579,TX,4,1,12,105,AP, ,Unknown,,1,,D,FR,NC,21,,,WA
+580,TX,4,1,12,201,AP, ,Fuji,,1,,D,FR,NC,15,TX,,TX
+581,TX,4,1,12,405,AP, ,Golden Delicious,,1,,D,FR,NC,13,,,MN
+582,TX,4,1,12,407,AP, ,McIntosh,,1,,D,FR,NC,14,,,NY
+583,TX,4,1,12,408,AP, ,Unknown,,1,,T,FR,NC,20,,,WA
+584,TX,4,1,13,419,AP, ,Granny Smith,,1,,D,FR,NC,21,WA,,WA
+585,TX,4,2,9,40,AP, ,Fuji,,1,,D,FR,NC,12,,,WA
+586,TX,4,2,9,104,AP, ,Red Delicious,,1,,T,FR,NC,16,,,WA
+587,TX,4,2,9,108,AP, ,Unknown,,1,,T,FR,NC,8,,,WA
+588,TX,4,2,9,207,AP, ,Pink Lady,,1,,D,FR,NC,14,,,WA
+589,TX,4,2,9,406,AP, ,Empire,,1,,D,FR,NC,14,,,NY
+590,TX,4,2,9,408,AP, ,Unknown,,1,,T,FR,NC,14,,,WA
+591,TX,4,2,9,409,AP, ,Unknown,,1,,D,FR,NC,10,WA,,
+592,TX,4,2,9,419,AP, ,Granny Smith,,1,,D,FR,NC,16,WA,,WA
+593,TX,4,3,8,20,AP, ,Red Delicious,,1,,D,FR,NC,8,WA,,
+594,TX,4,3,8,103,AP, ,Red Delicious,,1,,D,FR,NC,11,WA,,
+595,TX,4,3,8,104,AP, ,Red Delicious,,1,,T,FR,NC,9,,,MI
+596,TX,4,3,8,300,AP, ,Gala,,1,,D,FR,NC,13,,,WA
+597,TX,4,3,8,407,AP, ,Red Delicious,,1,,D,FR,NC,18,,,WA
+598,TX,4,3,8,408,AP, ,Unknown,,1,,T,FR,NC,15,,,WA
+599,TX,4,3,8,419,AP, ,Red Delicious,,1,,D,FR,NC,13,MI,,MI
+600,TX,4,3,9,201,AP, ,Ambrosia,,2,260,D,FR,NC,13,,,
+601,TX,4,4,5,408,AP, ,Unknown,,1,,T,FR,NC,30,,,WA
+602,TX,4,4,12,40,AP, ,Fuji,,1,,D,FR,NC,10,,,WA
+603,TX,4,4,12,201,AP, ,Gala,,1,,D,FR,NC,13,,,WA
+604,TX,4,4,12,204,AP, ,Gala,,1,,T,FR,NC,12,,,WA
+605,TX,4,4,12,405,AP, ,Red Delicious,,1,,D,FR,NC,13,,,MN
+606,TX,4,4,12,409,AP, ,Unknown,,1,,D,FR,NC,20,WA,,
+607,TX,4,4,13,104,AP, ,Unknown,Extra Fancy,1,,T,FR,NC,11,,,WA
+608,TX,4,4,13,107,AP, ,Cameo,Extra Fancy,1,,D,FR,NC,12,,,WA
+609,TX,4,5,10,1,AP, ,Red Delicious,,1,,D,FR,NC,14,WA,,TX
+610,TX,4,5,10,103,AP, ,Unknown,,1,,D,FR,NC,12,,,NY
+611,TX,4,5,10,104,AP, ,Red Delicious,,1,,T,FR,NC,13,,,WA
+612,TX,4,5,10,406,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+613,TX,4,5,10,409,AP, ,Unknown,,1,,D,FR,NC,18,WA,,
+614,TX,4,5,11,201,AP, ,Acey Mac,,1,,D,FR,NC,14,,,NY
+615,TX,4,5,11,215,AP, ,Red Delicious,,1,,D,FR,NC,13,WA,,
+616,TX,4,5,11,419,AP, ,Red Delicious,,1,,D,FR,NC,12,WA,,WA
+617,TX,4,6,14,30,AP, ,Unknown,,1,,D,FR,NC,11,WA,,
+618,TX,4,6,14,104,AP, ,Unknown,,1,,T,FR,NC,16,,,NY
+619,TX,4,6,14,105,AP, ,Unknown,,1,,D,FR,NC,12,WA,,WA
+620,TX,4,6,14,201,AP, ,Gala,,2,660,D,FR,NC,13,,,
+621,TX,4,6,14,300,AP, ,Gala,,1,,D,FR,NC,11,,,WA
+622,TX,4,6,14,407,AP, ,Red Delicious,,1,,D,FR,NC,14,,,WA
+623,TX,4,6,14,408,AP, ,Unknown,,1,,T,FR,NC,12,WA,,
+624,TX,4,6,14,419,AP, ,Fuji,,1,,D,FR,NC,12,WA,,
+625,TX,4,7,6,407,AP, ,Red Delicious,,1,,D,FR,NC,18,,,WA
+626,TX,4,7,6,408,AP, ,Unknown,,1,,T,FR,NC,16,WA,,WA
+627,TX,4,7,7,300,AP, ,Gala,,2,275,D,FR,NC,12,,,
+628,TX,4,7,12,104,AP, ,Unknown,,1,,T,FR,NC,13,,,WA
+629,TX,4,7,12,105,AP, ,Red Delicious,,1,,D,FR,NC,18,,,WA
+630,TX,4,7,12,201,AP, ,Red Delicious,,1,,D,FR,NC,16,WA,WA,WA
+631,TX,4,7,19,30,AP, ,Unknown,,1,,D,FR,NC,10,WA,,
+632,TX,4,7,19,419,AP, ,Red Delicious,,1,,D,FR,NC,13,WA,,WA
+633,TX,4,8,2,30,AP, ,Unknown,,1,,D,FR,NC,9,,,WA
+634,TX,4,8,9,104,AP, ,Granny Smith,Extra Fancy,1,,T,FR,NC,13,,,WA
+635,TX,4,8,9,107,AP, ,Red Delicious,,1,,D,FR,NC,13,,,WA
+636,TX,4,8,9,201,AP, ,Braeburn,,2,660,D,FR,PO,15,,,
+637,TX,4,8,9,405,AP, ,Granny Smith,,1,,D,FR,NC,16,,,WA
+638,TX,4,8,9,408,AP, ,Unknown,,1,,T,FR,NC,22,WA,WA,
+639,TX,4,8,9,409,AP, ,Unknown,,1,,D,FR,NC,20,WA,,
+640,TX,4,8,9,419,AP, ,Granny Smith,,1,,D,FR,NC,19,WA,WA,WA
+641,TX,4,9,13,103,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+642,TX,4,9,13,104,AP, ,Granny Smith,,1,,T,FR,NC,18,,CA,
+643,TX,4,9,13,201,AP, ,Fuji,,2,UNK,D,FR,PO,12,,,
+644,TX,4,9,13,211,AP, ,Fuji,,1,,D,FR,NC,16,CA,,
+645,TX,4,9,13,406,AP, ,Gala,,1,,D,FR,NC,22,,,CA
+646,TX,4,9,13,408,AP, ,Red Delicious,,1,,T,FR,NC,12,,,WA
+647,TX,4,9,13,419,AP, ,Red Delicious,,1,,D,FR,NC,12,WA,WA,WA
+648,TX,4,9,13,502,AP, ,Unknown,,1,,D,FR,NC,13,WA,,
+649,TX,4,10,11,30,AP, ,Unknown,,1,,D,FR,NC,12,,,WA
+650,TX,4,10,11,103,AP, ,Gala,,1,,D,FR,NC,10,,,WA
+651,TX,4,10,11,104,AP, ,Jonathan,,1,,T,FR,NC,17,MO,MO,
+652,TX,4,10,11,201,AP, ,Cameo,,1,,D,FR,NC,11,,,WA
+653,TX,4,10,11,215,AP, ,Red Delicious,,1,,D,FR,NC,11,WA,,WA
+654,TX,4,10,11,407,AP, ,Gala,,1,,D,FR,NC,14,,,WA
+655,TX,4,10,11,408,AP, ,Red Delicious,,1,,T,FR,NC,12,,,WA
+656,TX,4,10,11,419,AP, ,Red Delicious,,1,,D,FR,NC,10,,WA,WA
+657,TX,4,11,8,40,AP, ,Fuji,,1,,D,FR,NC,11,,WA,
+658,TX,4,11,8,104,AP, ,Red Delicious,,1,,T,FR,NC,11,,,WA
+659,TX,4,11,8,105,AP, ,Granny Smith,,1,,D,FR,NC,12,,CA,CA
+660,TX,4,11,8,201,AP, ,Liberty,,1,,D,FR,PO,14,,OR,OR
+661,TX,4,11,8,405,AP, ,Golden Delicious,,1,,D,FR,NC,15,,,WA
+662,TX,4,11,8,408,AP, ,Red Delicious,,1,,T,FR,NC,10,,,WA
+663,TX,4,11,8,409,AP, ,Golden Delicious,,1,,D,FR,NC,20,,WA,
+664,TX,4,11,8,419,AP, ,Red Delicious,,1,,D,FR,NC,12,,MI,MI
+665,TX,4,12,13,20,AP, ,Red Delicious,,1,,D,FR,NC,9,,WA,
+666,TX,4,12,13,104,AP, ,Red Delicious,,1,,T,FR,NC,12,,,WA
+667,TX,4,12,13,107,AP, ,Unknown,,2,260,D,FR,NC,12,,,
+668,TX,4,12,13,201,AP, ,Red Granny,,1,,D,FR,NC,17,CA,,
+669,TX,4,12,13,300,AP, ,Golden Delicious,,1,,D,FR,NC,13,,,WA
+670,TX,4,12,13,406,AP, ,Rome,,1,,D,FR,NC,13,,,NY
+671,TX,4,12,13,408,AP, ,Red Delicious,,1,,T,FR,NC,12,,,WA
+672,TX,4,12,13,419,AP, ,Jonathan,,1,,D,FR,NC,17,,MI,MI
+673,WA,4,1,12,1,AP, ,Red Delicious,,1,,D,FR,NC,12,WA,,
+674,WA,4,1,12,4,AP, ,Granny Smith,,1,,D,FR,NC,14,,,WA
+675,WA,4,1,12,7,AP, ,Gala,,1,,D,FR,NC,18,WA,,
+676,WA,4,1,12,23,AP, ,Red Delicious,,1,,D,FR,NC,13,WA,,MD
+677,WA,4,2,9,1,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+678,WA,4,2,9,4,AP, ,Braeburn,,1,,D,FR,NC,14,,,WA
+679,WA,4,2,9,8,AP, ,Red Delicious,,1,,D,FR,NC,12,WA,,
+680,WA,4,2,9,30,AP, ,Red Delicious,,1,,D,FR,NC,16,,,WA
+681,WA,4,3,8,2,AP, ,Braeburn,,1,,D,FR,NC,12,,,WA
+682,WA,4,3,8,4,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+683,WA,4,3,8,10,AP, ,Braeburn,,1,,D,FR,NC,12,,,WA
+684,WA,4,3,8,32,AP, ,Pink Lady,,1,,D,FR,NC,11,WA,WA,WA
+685,WA,4,4,12,2,AP, ,Braeburn,,1,,D,FR,NC,12,,,WA
+686,WA,4,4,12,4,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+687,WA,4,4,12,10,AP, ,Granny Smith,,1,,D,FR,NC,15,,,WA
+688,WA,4,4,12,32,AP, ,Gala,,1,,D,FR,NC,12,,,WA
+689,WA,4,5,10,1,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+690,WA,4,5,10,2,AP, ,Fuji,,1,,D,FR,NC,13,,,WA
+691,WA,4,5,10,7,AP, ,Red Delicious,,1,,D,FR,NC,10,WA,,
+692,WA,4,5,10,23,AP, ,Red Delicious,,1,,D,FR,NC,9,,,WA
+693,WA,4,6,14,1,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+694,WA,4,6,14,4,AP, ,Southern Rose,,2,660,D,FR,NC,14,,,
+695,WA,4,6,14,8,AP, ,Fuji,,1,,D,FR,NC,20,,,WA
+696,WA,4,6,14,30,AP, ,Unknown,,1,,D,FR,NC,9,,,WA
+697,WA,4,7,12,1,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+698,WA,4,7,12,4,AP, ,Braeburn,,2,660,D,FR,NC,11,,,
+699,WA,4,7,12,8,AP, ,Fuji,,1,,D,FR,NC,20,,,WA
+700,WA,4,7,12,30,AP, ,Red Delicious,,1,,D,FR,NC,10,,,WA
+701,WA,4,8,9,2,AP, ,Fuji,,1,,D,FR,NC,17,,,WA
+702,WA,4,8,9,3,AP, ,Fuji,,1,,D,FR,NC,8,,,WA
+703,WA,4,8,9,5,AP, ,Fuji,,1,,D,FR,NC,12,,,WA
+704,WA,4,8,9,32,AP, ,Unknown,,1,,D,FR,NC,12,,WA,
+705,WA,4,9,13,1,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+706,WA,4,9,13,7,AP, ,Unknown,,1,,D,FR,NC,13,,WA,
+707,WA,4,9,13,16,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+708,WA,4,9,13,23,AP, ,Red Delicious,,1,,D,FR,NC,13,,,WA
+709,WA,4,10,11,1,AP, ,Red Delicious,,1,,D,FR,NC,8,,,WA
+710,WA,4,10,11,8,AP, ,Fuji,,1,,D,FR,NC,13,,WA,
+711,WA,4,10,11,23,AP, ,Red Delicious,,1,,D,FR,NC,16,,,WA
+712,WA,4,10,11,30,AP, ,Unknown,,1,,D,FR,NC,11,,WA,
+713,WA,4,11,8,1,AP, ,Red Delicious,,1,,D,FR,NC,10,WA,,
+714,WA,4,11,8,4,AP, ,Golden Delicious,,1,,D,FR,NC,16,,,WA
+715,WA,4,11,8,11,AP, ,Gala,,2,260,D,FR,NC,27,,,
+716,WA,4,11,8,32,AP, ,Unknown,,1,,D,FR,NC,15,,,WA
+717,WA,4,12,13,3,AP, ,Red Delicious,,1,,D,FR,NC,11,,,WA
+718,WA,4,12,13,7,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+719,WA,4,12,13,16,AP, ,Red Delicious,,1,,D,FR,NC,10,,WA,
+720,WA,4,12,13,33,AP, ,Unknown,,1,,D,FR,NC,8,,,WA
+721,WI,4,1,12,114,AP, ,Red Delicious,,1,,D,FR,NC,12,,,CA
+722,WI,4,1,12,118,AP, ,Red Delicious,,1,,D,FR,NC,12,,,WA
+723,WI,4,2,9,101,AP, ,Unknown,,1,,D,FR,NC,15,,,
+724,WI,4,2,9,123,AP, ,Red Delicious,,1,,D,FR,NC,10,,,
+725,WI,4,3,8,103,AP, ,Unknown,,1,,D,FR,NC,17,,,WI
+726,WI,4,3,8,114,AP, ,Unknown,,1,,D,FR,NC,16,,,WA
+727,WI,4,4,12,123,AP, ,Red Delicious,,1,,D,FR,NC,14,,,
+728,WI,4,4,14,114,AP, ,Unknown,,1,,D,FR,NC,15,CA,,
+729,WI,4,5,10,103,AP, ,Red Delicious,,1,,D,FR,NC,13,,,WI
+730,WI,4,5,10,114,AP, ,Unknown,,1,,D,FR,NC,14,,,CA
+731,WI,4,6,14,118,AP, ,Red Delicious,,1,,D,FR,NC,13,,WA,
+732,WI,4,6,14,122,AP, ,Unknown,,1,,D,FR,NC,16,WA,,
+733,WI,4,7,12,114,AP, ,Granny Smith,,1,,D,FR,NC,14,,,CA
+734,WI,4,7,12,123,AP, ,Red Delicious,,1,,D,FR,NC,13,,,TX
+735,WI,4,8,9,101,AP, ,Red Delicious,,1,,D,FR,NC,15,,,WA
+736,WI,4,8,9,123,AP, ,Granny Smith,,1,,D,FR,NC,10,,,TX
+737,WI,4,9,13,118,AP, ,Golden Delicious,,1,,D,FR,NC,14,,,WA
+738,WI,4,9,13,119,AP, ,Red Delicious,,1,,D,FR,NC,12,,WA,
+739,WI,4,10,11,103,AP, ,Red Delicious,,1,,D,FR,NC,15,,,WI
+740,WI,4,10,11,119,AP, ,Red Delicious,,1,,D,FR,NC,13,,WA,
+741,WI,4,11,8,101,AP, ,Red Delicious,,1,,D,FR,NC,14,,,WA
+742,WI,4,11,8,123,AP, ,Granny Smith,,1,,D,FR,NC,12,,,TX
+743,WI,4,12,13,108,AP, ,Red Delicious,,1,,D,FR,NC,15,,,WA
+744,WI,4,12,13,118,AP, ,Granny Smith,,1,,D,FR,NC,14,,,WA
