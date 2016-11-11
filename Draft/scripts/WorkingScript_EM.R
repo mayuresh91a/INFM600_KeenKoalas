@@ -3,7 +3,7 @@
 
 ##--------------------------------------------------------------------------------------
 
-# set working directory to the directory of this R script, which also contains all the required csv data files and all other R scripts for this project (placed inside "if" condition in case this script is called from another R script where the working directory had already been set).
+#Set working directory to the directory of this R script, which also contains all the required csv data files and all other R scripts for this project (placed inside "if" condition in case this script is called from another R script where the working directory had already been set).
 if (!exists("wd")) {
   wd <- dirname(parent.frame(2)$ofile)
   setwd(wd)
@@ -30,8 +30,11 @@ variety_14_avgCONCEN <- c() #Variable for average concentration amount for the v
 state_14_avgPestcode <- c() #Variable for average number of pesticides per sample for the state.
 state_14_avgCONCEN <- c() #Variable for average concentration amount for the state.
 
+##--------------------------------------------------------------------------------------
+
 ##By variety filtering & calculations:
-##Create subsets of pesticide data by variety via matching variety names from the frequency list previous created (stored as rownames) with Samples_2014_Regular$VARIETY, getting a list of primary key values for samples of those varieties, then match those primary key values to Results_2014_Regular_Detected$SAMPLE_PK so the corresponding pesticide codes and concentrations can be pulled from the test results of detected residues for 2014.
+##Create subsets of pesticide data by variety via matching variety names from the frequency list previous created (stored as rownames) with Samples_2014_Regular$VARIETY, getting a list of primary key values for samples of that variety, then match those primary key values to Results_2014_Regular_Detected$SAMPLE_PK so the corresponding pesticide codes and concentrations can be pulled from the test results of detected residues for 2014.
+
 for(i in 1:length(stat_14_varieties$Frequency)) #Go through the same process below for all varieties using a 'for' loop that matches the number of different varieties.
 { 
   namePK <- paste0("variety_14_PK_", i) #Generate a string for naming the variable that will store primary keys matching the variety.
@@ -47,8 +50,14 @@ for(i in 1:length(stat_14_varieties$Frequency)) #Go through the same process bel
   variety_14_avgCONCEN <- c(variety_14_avgCONCEN, round(mean(eval(as.name(nameResidue))$CONCEN), 3)) #calculate average concentration amount for the variety (rounding to 3 decimal places), and store it in a variable to be later appended to the stat_14_varieties data frame.
 }
 
+stat_14_varieties <- data.frame(stat_14_varieties, variety_14_avgPestcode, variety_14_avgCONCEN) #appending the vectors for average # of pesticides and average concentration to the stat_14_varieties data frame.
+colnames(stat_14_varieties) <- c("Frequency", "Percentage", "Avg # of Pesticides","Avg Concentration") #Update the headers for the data frame columns for clarification.
+
+##--------------------------------------------------------------------------------------
+
 ##By state filtering & calculations:
-##Create subsets of pesticide data by state via matching state names from the frequency list previous created (stored as rownames) with Samples_2014_Regular$STATE, getting a list of primary key values for samples produced in those states, then match those primary key values to Results_2014_Regular_Detected$SAMPLE_PK so the corresponding pesticide codes and concentrations can be pulled from the test results of detected residues for 2014.
+##Create subsets of pesticide data by state via matching state names from the frequency list previous created (stored as rownames) with Samples_2014_Regular$STATE, getting a list of primary key values for samples produced in that state, then match those primary key values to Results_2014_Regular_Detected$SAMPLE_PK so the corresponding pesticide codes and concentrations can be pulled from the test results of detected residues for 2014.
+
 for(i in 1:length(stat_14_states$Frequency)) #Go through the same process below for all states using a 'for' loop that matches the number of different states.
 { 
   namePK <- paste0("state_14_PK_", i) #Generate a string for naming the variable that will store primary keys matching the state.
@@ -64,30 +73,30 @@ for(i in 1:length(stat_14_states$Frequency)) #Go through the same process below 
   state_14_avgCONCEN <- c(state_14_avgCONCEN, round(mean(eval(as.name(nameResidue))$CONCEN), 3)) #calculate average concentration amount for the state (rounding to 3 decimal places), and store it in a variable to be later appended to the stat_14_states data frame.
 }
 
-stat_14_varieties <- data.frame(stat_14_varieties, variety_14_avgPestcode, variety_14_avgCONCEN) #appending the vectors for average # of pesticides and average concentration to the stat_14_varieties data frame.
-colnames(stat_14_varieties) <- c("Frequency", "Percentage", "Avg # of Pesticides","Avg Concentration") #Update the headers for the data frame columns for clarification.
-
 stat_14_states <- data.frame(stat_14_states, state_14_avgPestcode, state_14_avgCONCEN) #appending the vectors for average # of pesticides and average concentration to the stat_14_state data frame.
 colnames(stat_14_states) <- c("Frequency", "Percentage", "Avg # of Pesticides","Avg Concentration") #Update the headers for the data frame columns for clarification.
 
+##--------------------------------------------------------------------------------------
+
 ##By grade label filtering & calculations:
 ##Separate samples with or without high grade labels and calculate the corresponding average pesticide numbers and concentration amounts.
-highGrade_14_PK <- subset(Samples_2014_Regular$SAMPLE_PK, Samples_2014_Regular$GRADE != "") # the primary keys of samples with high grade labels.
+
+highGrade_14_PK <- subset(Samples_2014_Regular$SAMPLE_PK, Samples_2014_Regular$GRADE != "") #Find and store the primary keys of samples with high grade labels.
 highGrade_14_Pestcode <- subset(Results_2014_Regular_Detected$Pestcode, !is.na(match(Results_2014_Regular_Detected$SAMPLE_PK,highGrade_14_PK))) #Pesticide results matching sample primary keys with high grade labels.
 highGrade_14_CONCEN <- subset(Results_2014_Regular_Detected$CONCEN, !is.na(match(Results_2014_Regular_Detected$SAMPLE_PK,highGrade_14_PK))) #concentration results matching sample primary keys with high grade labels.
 
-lowGrade_14_PK <- subset(Samples_2014_Regular$SAMPLE_PK, Samples_2014_Regular$GRADE == "") # the primary keys of samples without high grade labels.
+lowGrade_14_PK <- subset(Samples_2014_Regular$SAMPLE_PK, Samples_2014_Regular$GRADE == "") #Find and store the primary keys of samples without high grade labels.
 lowGrade_14_Pestcode <- subset(Results_2014_Regular_Detected$Pestcode, !is.na(match(Results_2014_Regular_Detected$SAMPLE_PK,lowGrade_14_PK))) #Pesticide results matching sample primary keys without high grade labels.
 lowGrade_14_CONCEN <- subset(Results_2014_Regular_Detected$CONCEN, !is.na(match(Results_2014_Regular_Detected$SAMPLE_PK,lowGrade_14_PK))) #concentration results matching sample primary keys without high grade labels.
 
 stat_14_grade <- data.frame(length(highGrade_14_PK), round(length(highGrade_14_Pestcode)/length(highGrade_14_PK),3), round(mean(highGrade_14_CONCEN),3)) #Create data frame with # of samples with high grade labels, average number of pesticides found per such sample (rounded to 3 decimal places), and the average residue concentration amount (rounded to 3 decimal places) for those samples.
-colnames(stat_14_grade) <- c("# of Samples", "Avg # of Pesticides", "Avg Concentration") #Set column headers for clarification.
+colnames(stat_14_grade) <- c("# of Samples", "Avg # of Pesticides", "Avg Concentration") #Rename column headers for clarification.
 
 tempStat_14_lowGrade <- data.frame(length(lowGrade_14_PK), round(length(lowGrade_14_Pestcode)/length(lowGrade_14_PK), 3), round(mean(lowGrade_14_CONCEN), 3)) #store the same type of data as above for samples without high grade labels in a temporary data frame.
-colnames(tempStat_14_lowGrade) <- c("# of Samples", "Avg # of Pesticides", "Avg Concentration")  #Set column headers for clarification.
+colnames(tempStat_14_lowGrade) <- c("# of Samples", "Avg # of Pesticides", "Avg Concentration")  #Rename column headers for clarification.
 
-stat_14_grade <- rbind(stat_14_grade, tempStat_14_lowGrade ) #merge the normal grade stats into the data frame with the high grade stats vertically.
-rownames(stat_14_grade) <- c("High Grade", "Normal Grade") #Set row labels for clarification.
+stat_14_grade <- rbind(stat_14_grade, tempStat_14_lowGrade ) #Merge the normal grade stats vertically as a new row into the data frame with the high grade stats.
+rownames(stat_14_grade) <- c("High Grade", "Normal Grade") #Rename row labels for clarification.
 
 
 #Note: add sd calculation code for all columns

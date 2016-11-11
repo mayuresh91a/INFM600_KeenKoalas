@@ -3,7 +3,7 @@
 
 ##--------------------------------------------------------------------------------------
 
-# set working directory to the directory of this R script, which also contains all the required csv data files and all other R scripts for this project (placed inside "if" condition in case this script is called from another R script where the working directory had already been set).
+#Set working directory to the directory of this R script, which also contains all the required csv data files and all other R scripts for this project (placed inside "if" condition in case this script is called from another R script where the working directory had already been set).
 if (!exists("wd")) {
   wd <- dirname(parent.frame(2)$ofile)
   setwd(wd)
@@ -45,12 +45,12 @@ Results_2014_Regular_Detected <- subset(Results_2014_Regular, !is.na(Results_201
 Results_2004_Regular_Detected <- subset(Results_2004_Regular, !is.na(Results_2004_Regular$CONCEN)) #2004 data
 
 ##--------------------------------------------------------------------------------------
-
+#Note of things to include/add:
 #Total Statistics, pesticides for 2014, 2004
 #Total Statistics, concentrations for 2014, 2004
 #number of pesticides per sample, conv vs org
 #sd of CONCEN?
-#range of CONCEN (min and max)
-#quantile of CONCEN
+#range of CONCEN (min and max) - partof summary
+#quantile of CONCEN - partof summary
 #average of how many pesticides are tested per sample?
 
