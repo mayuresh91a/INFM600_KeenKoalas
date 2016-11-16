@@ -370,9 +370,9 @@ percent_detected_reg_04 <- round((reg_detected_samples_04/num_reg_samples_04)*10
 
 # 4) Create the table "Percent_Detected_Samples" showing the percentage of samples with detected pesticides for each year.
 
-Percent_Organic = c(percent_detected_org_14, percent_detected_org_04) #Organic samples.
-Percent_Regular = c(percent_detected_reg_14, percent_detected_reg_04) #Regular samples.
-Percent_All = c(percent_detected_14, percent_detected_04) #All samples regardless of pesticide claims.
+Percent_Organic <- c(percent_detected_org_14, percent_detected_org_04) #Organic samples.
+Percent_Regular <- c(percent_detected_reg_14, percent_detected_reg_04) #Regular samples.
+Percent_All <- c(percent_detected_14, percent_detected_04) #All samples regardless of pesticide claims.
 
 Percent_Detected_Samples <- data.frame(Year = c(2014, 2004), Percent_All, Percent_Regular, Percent_Organic) #Combine the 3 vectors above into a data frame.
 
