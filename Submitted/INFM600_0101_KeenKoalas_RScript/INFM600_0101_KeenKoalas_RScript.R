@@ -19,7 +19,7 @@ source("Data_Cleaning.R")
 
 ##======================================================================================
 
-##Preparation: Creating different subsets of data in preparation of running analysis and print the summary statistics for columns relevant to our research questions.
+##Preparation: Creating different subsets of data in preparation for running analysis and print the summary statistics for columns relevant to our research questions.
 
 #Create data subset of only organic samples by excluding samples with no pesticide related claims (i.e., conventional) from the CLAIM variable for both 2014 and 2004, respectively.
 Samples_2014_Organic <- subset(Samples_2014, Samples_2014$CLAIM != "NC") #2014 data
