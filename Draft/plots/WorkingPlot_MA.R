@@ -18,3 +18,28 @@ library(ggplot2)
 
 ##--------------------------------------------------------------------------------------
 #Please write the code for your plot below, along with the interpretation at the end :)
+
+##
+#Selecting the common pesticides which were used for regular and organic apples.
+  pest_data_reg_14_plot<-  pest_data_reg_14[c(3,4,12),]
+  pest_data_reg_14_plot["Type"]<- 'Regular'
+  
+  pest_data_org_14_plot<-  pest_data_org_14[c(1,2,3),]
+  pest_data_org_14_plot["Type"]<- 'Organic'
+  
+  
+  #Vertically merging the common samples which were selected above to use for plotting.
+  reg_org_combined_que2<-rbind(pest_data_org_14_plot,pest_data_reg_14_plot)
+  
+  #Adding a column called Pesticide Name for each of the Pestcodes and giving the appropriate name.
+  reg_org_combined_que2["Pesticide_Name"]<-NA
+  reg_org_combined_que2$Pesticide_Name[reg_org_combined_que2$Pestcode =='125' ] <- "Diphenylamine(DPA)"
+  reg_org_combined_que2$Pesticide_Name[reg_org_combined_que2$Pestcode =='157' ] <- "Thiabendazole"
+  reg_org_combined_que2$Pesticide_Name[reg_org_combined_que2$Pestcode =='666' ] <- "Carbendazim(MBC)"
+  reg_org_combined_que2$Pesticide_Name[reg_org_combined_que2$Pestcode =='ABC' ] <- "Spinosad A"
+  
+  # Plotting the comparison of organic vs regular apples to show the average concentration found in various pesticides in the sample selected above.
+  ggplot(data=reg_org_combined_que2,aes(x=Pesticide_Name,y=CONCEN)) + geom_bar(aes(fill=Type),stat="identity",position = "dodge")  + ggtitle("Organic vs Regular - 2014") + labs(x="Pesticide Name",y="Average Concentration")
+  
+  #Interpretation: From the grouped bar chart which is plotted above, the regular samples of apples in 2014 have a considerably more average concentration of the pesticides and this difference is same for all the pesticides found.
+  
