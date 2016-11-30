@@ -154,8 +154,8 @@ for(i in 1:length(stat_14_varieties$Frequency)) #Go through the same process bel
   variety_14_CountCONCEN <- c(variety_14_CountCONCEN, length(eval(as.name(nameResidue))$CONCEN)) #Calculate the number of residue concentrations detected for this variety and store it in a variable to be later appended to the stat_14_varieties data frame. (Note: this was added to facilitate the shortening of the varieties list from 23 down to the top 10 and "others.")
 }
 
-stat_14_varieties <- data.frame(stat_14_varieties, variety_14_avgPestcode, variety_14_avgCONCEN) #appending the vectors for average # of pesticides, and average concentration to the stat_14_varieties data frame.
-colnames(stat_14_varieties) <- c("Frequency", "Percentage", "Avg # of Pesticides","Avg Concentration") #Update the headers for the data frame columns for clarification.
+stat_14_varieties <- data.frame(stat_14_varieties, variety_14_avgPestcode, variety_14_avgCONCEN, variety_14_CountCONCEN) #appending the vectors for average # of pesticides, average concentration, and the number of residue concentrations detected to the stat_14_varieties data frame. (Note: the residue concentration count is added to facilitate plot scripting.)
+colnames(stat_14_varieties) <- c("Frequency", "Percentage", "Avg # of Pesticides","Avg Concentration", "Concentration Count") #Update the headers for the data frame columns for clarification.
 
 ##--------------------------------------------------------------------------------------
 
