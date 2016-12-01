@@ -39,7 +39,11 @@ library(ggplot2)
   reg_org_combined_que2$Pesticide_Name[reg_org_combined_que2$Pestcode =='ABC' ] <- "Spinosad A"
   
   # Plotting the comparison of organic vs regular apples to show the average concentration found in various pesticides in the sample selected above.
-  ggplot(data=reg_org_combined_que2,aes(x=Pesticide_Name,y=CONCEN)) + geom_bar(aes(fill=Type),stat="identity",position = "dodge")  + ggtitle("Organic vs Regular - 2014") + labs(x="Pesticide Name",y="Average Concentration")
+  ggplot(data=reg_org_combined_que2,aes(x=reorder(Pesticide_Name,-freq),y=CONCEN)) + geom_bar(aes(fill=Type),stat="identity",position = "dodge")  + ggtitle("Organic vs Regular - 2014") + labs(x="Pesticide Name",y="Average Concentration") + theme(axis.text.x=element_text(size=8,angle = 20))
   
-  #Interpretation: From the grouped bar chart which is plotted above, the regular samples of apples in 2014 have a considerably more average concentration of the pesticides and this difference is same for all the pesticides found.
+  # Interpretation: The group bar chart plots the average concentrations of the pesticides found common in the regular and the organic samples of apples. 
+  # The avg concentrations of these pesticides has been plotted in the decreasing order of frequency of the samples. From the grouped bar chart it is evident 
+  # that the regular samples of apples in 2014 have a significantly more average concentration of the pesticides than their organic counterparts. It can also
+  # be interpreted that there are only 3 kinds of pesticides that are actually used in organic apples whereas in the regular apples, the number of varieties of
+  # pesticides found is 43. It can be interpreted that organic apples are definitely a healthier alternative to the regular apples.
   
